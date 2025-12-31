@@ -34023,7 +34023,15 @@ Descriptor_Deck_Division_WF_RUS_2_MSD_multi_rule is TDeckDivisionRule
 		),
 		TDeckUniteRule
 		(
-			UnitDescriptor = $/GFX/Unit/Descriptor_Unit_WF_Supercam_RUS
+			UnitDescriptor = $/GFX/Unit/Descriptor_Unit_WF_Orion_RUS
+			AvailableWithoutTransport = True
+			MaxPackNumber = 1
+			NumberOfUnitInPack = 3
+			NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
+		),
+		TDeckUniteRule
+		(
+			UnitDescriptor = $/GFX/Unit/Descriptor_Unit_WF_Orion_ATGM_RUS
 			AvailableWithoutTransport = True
 			MaxPackNumber = 1
 			NumberOfUnitInPack = 6
