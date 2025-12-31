@@ -1,0 +1,14 @@
+export Modele_Korsar is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Korsar/Korsar.fbx"
+)
+
+export Modele_Korsar_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Korsar/Korsar_train.fbx"
+)
+
+export Modele_Forpost is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Forpost/Forpost.fbx"
+)

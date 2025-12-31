@@ -3561,6 +3561,126 @@ unnamed GhostAerialDepictionRegistration
 (
     Alternatives = Alternatives_WF_NH90_trans_GER
     MimeticName = "WF_NH90_trans_GER"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Mi_35_Desant_RUS
+    MimeticName = "WF_Mi_35_Desant_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Mi_8MTV5_RUS
+    MimeticName = "WF_Mi_8MTV5_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Mi_8MTV5_RKT1_RUS
+    MimeticName = "WF_Mi_8MTV5_RKT1_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Mi_8MTV5_RKT2_RUS
+    MimeticName = "WF_Mi_8MTV5_RKT2_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MI_28N_RUS
+    MimeticName = "WF_MI_28N_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MI_28N_AT2_RUS
+    MimeticName = "WF_MI_28N_AT2_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MI_28N_AA_RUS
+    MimeticName = "WF_MI_28N_AA_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MI_28NM_RUS
+    MimeticName = "WF_MI_28NM_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MI_28NM_AT_RUS
+    MimeticName = "WF_MI_28NM_AT_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Su_30SM_AA_RUS
+    MimeticName = "WF_Su_30SM_AA_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Su_30SM_SEAD_RUS
+    MimeticName = "WF_Su_30SM_SEAD_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Su_30SM_AT_RUS
+    MimeticName = "WF_Su_30SM_AT_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Su_30SM_LGB_RUS
+    MimeticName = "WF_Su_30SM_LGB_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Korsar_RUS
+    MimeticName = "WF_Korsar_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Orion_RUS
+    MimeticName = "WF_Orion_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Orion_ATGM_RUS
+    MimeticName = "WF_Orion_ATGM_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Ka_52K_RUS
+    MimeticName = "WF_Ka_52K_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Ka_52K_SEAD_RUS
+    MimeticName = "WF_Ka_52K_SEAD_RUS"
+    Selector = SpecificHelicoDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_MiG_31BM_RUS
+    MimeticName = "WF_MiG_31BM_RUS"
+    Selector = SpecificAirplaneDepictionSelector
+)
+unnamed GhostAerialDepictionRegistration
+(
+    Alternatives = Alternatives_WF_Forpost_RUS
+    MimeticName = "WF_Forpost_RUS"
     Selector = SpecificAirplaneDepictionSelector
 )
 // END NEW //

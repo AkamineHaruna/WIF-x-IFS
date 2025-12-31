@@ -5633,20 +5633,58 @@ export Descriptor_Deck_Division_WF_GER_10PZ_multi is TDeckDivisionDescriptor
 
 export Descriptor_Deck_Division_WF_RUS_31_VDV_multi is TDeckDivisionDescriptor
 (
-    DescriptorId = GUID:{93e5f86d-35df-4549-ad3b-22a573661037}
+    DescriptorId = GUID:{5cba71cd-406a-4db8-860d-4c92b061c429}
     CfgName = 'WF_RUS_31_VDV_multi'
     DivisionName = 'WF31VDVRU'
-	InterfaceOrder = -1.0
+	InterfaceOrder = 4.0
     DivisionPowerClassification = 'DC_PWR2'
     DivisionCoalition = ECoalition/PACT
-    DivisionTags = []
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR1']
     DescriptionHintTitleToken = 'WF31VDVRU'
     MaxActivationPoints = 50
 	DivisionRule = Descriptor_Deck_Division_WF_RUS_31_VDV_multi_rule
-    CostMatrix = MatrixCostName_WF_RUS_90_Tank_multi
+    CostMatrix = MatrixCostName_WF_RUS_31_VDV_multi
     EmblemTexture     = "Texture_Division_Emblem_SOV_31_VDV"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+
+export Descriptor_Deck_Division_WF_RUS_155_Nav_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{93e5f86d-35df-4549-ad3b-22a573661037}
+    CfgName = 'WF_RUS_155_Nav_multi'
+    DivisionName = 'WF155NVRU'
+	InterfaceOrder = 5.0
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionCoalition = ECoalition/PACT
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'WF155NVRU'
+    MaxActivationPoints = 50
+	DivisionRule = Descriptor_Deck_Division_WF_RUS_155_Nav_multi_rule
+    CostMatrix = MatrixCostName_WF_RUS_155_Naval_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_155_NAV"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+
+export Descriptor_Deck_Division_WF_RUS_20_MSD_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ff15aaea-9679-4a61-b5ea-c5b0747e6216}
+    CfgName = 'WF_RUS_20_MSD_multi'
+    DivisionName = 'WF20MSRUS'
+	InterfaceOrder = 6.0
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionCoalition = ECoalition/PACT
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    DescriptionHintTitleToken = 'WF20MSRUH'
+	MaxActivationPoints = 50
+	DivisionRule = Descriptor_Deck_Division_WF_RUS_20_MSD_multi_rule
+    CostMatrix = MatrixCostName_WF_RUS_20_MSD_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_20Y_MSD"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 

@@ -79712,4 +79712,424 @@ unnamed TacticVehicleDepictionRegistration
             + DepictionAction_CriticalFX_Tank
 
 )
+
+DepictionOperator_WF_T80BVM_22_RUS_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_T80BVM_22_RUS_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_WF_T80BVM_22_RUS_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_T80UD_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ['WeaponShootData_0_3']
+    NbProj = 1
+)
+DepictionOperator_WF_T80BVM_22_RUS_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_WF_T80BVM_22_RUS_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_WF_T80BVM_22_RUS_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_6', 'WeaponShootData_1_6', 'WeaponShootData_2_6', 'WeaponShootData_3_6']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    CoatingName = 'WF_T80BVM_22_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_T80BVM_22_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_T80_Turbine,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon1,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon2,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon3,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon4,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon5,
+        DepictionOperator_WF_T80BVM_22_RUS_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46M_T80B ),
+                ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46M_T80B ),
+                ( "weapon_effet_tag3", Weapon_ATGM_9M128_Agona ),
+                ( "weapon_effet_tag4", Weapon_HMG_12_7_mm_NSVT ),
+                ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm ),
+                ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
+
+DepictionOperator_WF_T80BV_22_RUS_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_T80BV_22_RUS_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_WF_T80BV_22_RUS_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_WF_T80BV_22_RUS_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_WF_T80BV_22_RUS_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_6', 'WeaponShootData_1_6', 'WeaponShootData_2_6', 'WeaponShootData_3_6']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    CoatingName = 'WF_T80BV_22_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_T80BV_22_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_T80_Turbine,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_WF_T80BV_22_RUS_Weapon1,
+        DepictionOperator_WF_T80BV_22_RUS_Weapon2,
+        DepictionOperator_WF_T80BV_22_RUS_Weapon4,
+        DepictionOperator_WF_T80BV_22_RUS_Weapon5,
+        DepictionOperator_WF_T80BV_22_RUS_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46M_T80B ),
+                ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46M_T80B ),
+                ( "weapon_effet_tag4", Weapon_HMG_12_7_mm_NSVT ),
+                ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm ),
+                ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
+
+DepictionOperator_WF_BRM_3K_RUS_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_BRM_3K_RUS_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_WF_BRM_3K_RUS_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_WF_BRM_3K_RUS_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_5', 'WeaponShootData_1_5', 'WeaponShootData_2_5', 'WeaponShootData_3_5']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    CoatingName = 'WF_BRM_3K_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_BRM_3K_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Bmp3,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BMP,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_WF_BRM_3K_RUS_Weapon1,
+        DepictionOperator_WF_BRM_3K_RUS_Weapon2,
+        DepictionOperator_WF_BRM_3K_RUS_Weapon4,
+        DepictionOperator_WF_BRM_3K_RUS_Weapon5,
+        DepictionOperator_Heat,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_AutoCanon_AP_30mm_2A72_BMP3 ),
+                ( "weapon_effet_tag2", Weapon_AutoCanon_HE_30mm_2A72_BMP3 ),
+                ( "weapon_effet_tag4", Weapon_MMG_PKT_7_62mm ),
+                ( "weapon_effet_tag5", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_BRM_3) ]
+)
+
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon3 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_3']
+    NbProj = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Connoisseur = MissileCarriage_BMP_3_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ['WeaponShootData_0_4']
+    NbProj = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle3_tir_01", "fx_tourelle3_tir_02"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon6 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_6"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_6"
+    NbFX = 1
+)
+DepictionOperator_WF_BMP_3_APP_RUS_Weapon7 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag7"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_7', 'WeaponShootData_1_7', 'WeaponShootData_2_7', 'WeaponShootData_3_7']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    CoatingName = 'WF_BMP_3_APP_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_BMP_3_APP_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Bmp3,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BMP,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_HydraulicRecoil_AutoCannon,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon1,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon2,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon3,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon4,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon5,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon6,
+        DepictionOperator_WF_BMP_3_APP_RUS_Weapon7,
+        DepictionOperator_Heat,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_Canon_HE_100mm_2A70 ),
+                ( "weapon_effet_tag2", Weapon_AutoCanon_AP_30mm_2A72_BMP3 ),
+                ( "weapon_effet_tag3", Weapon_AutoCanon_HE_30mm_2A72_BMP3 ),
+                ( "weapon_effet_tag4", Weapon_ATGM_9M117_Bastion_IFV ),
+                ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm_x2 ),
+                ( "weapon_effet_tag6", Weapon_MMG_PKT_7_62mm ),
+                ( "weapon_effet_tag7", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_BMP_3_APP) ]
+)
+
+DepictionOperator_WF_T90S_RUS_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_T90S_RUS_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_WF_T90S_RUS_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_WF_T90S_RUS_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_WF_T90S_RUS_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_6', 'WeaponShootData_1_6', 'WeaponShootData_2_6', 'WeaponShootData_3_6']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    CoatingName = 'WF_T90S_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_T90S_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_T72,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_WF_T90S_RUS_Weapon1,
+        DepictionOperator_WF_T90S_RUS_Weapon2,
+        DepictionOperator_WF_T90S_RUS_Weapon4,
+        DepictionOperator_WF_T90S_RUS_Weapon5,
+        DepictionOperator_WF_T90S_RUS_Weapon6,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46M ),
+                ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46M ),
+                ( "weapon_effet_tag4", Weapon_HMG_12_7_mm_NSVT ),
+                ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm ),
+                ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
 // END NEW //

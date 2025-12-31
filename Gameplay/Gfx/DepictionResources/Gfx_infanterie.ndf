@@ -5122,6 +5122,8 @@ export Modele_SG553   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/A
 export Modele_RG6   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/Arm/AWOF/RG6.fbx' )
 export Modele_Kord_inf   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/Arm/AWOF/Kord_inf.fbx' )
 export Modele_Verba   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/Arm/AWOF/Verba.fbx' )
+export Modele_DP64   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/Arm/AWOF/DP64.fbx' )
+export Modele_ADS   is TResourceMesh( Mesh = 'GameData:/Assets/3D/Units/Ammo/Arm/AWOF/ADS.fbx' )
 
 RUS_Ratnik_1 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_1/Rifle_1.fbx'
 RUS_Ratnik_2 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_2/Rifle_2.fbx'
@@ -5133,6 +5135,10 @@ RUS_Ratnik_7 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Marks/Marks.fbx'
 
 RUS_Green_1 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_Green/Rifle_1.fbx'
 
+RUS_Blue_1 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_Blue_1/Rifle_1.fbx'
+RUS_Blue_2 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_Blue_2/Rifle_3.fbx'
+RUS_Blue_3 is 'GameData:/Assets/3D/Units/RUS/Infanterie/Rifle_Blue_3/Engi.fbx'
+
 export Modele_Ratnik_RUS_1 is TResourceMesh( Mesh=RUS_Ratnik_1 )
 export Modele_Ratnik_RUS_2 is TResourceMesh( Mesh=RUS_Ratnik_2 )
 export Modele_Ratnik_RUS_3 is TResourceMesh( Mesh=RUS_Ratnik_3 )
@@ -5142,6 +5148,10 @@ export Modele_Ratnik_RUS_6 is TResourceMesh( Mesh=RUS_Ratnik_6 )
 export Modele_Ratnik_RUS_7 is TResourceMesh( Mesh=RUS_Ratnik_7 )
 
 export Modele_Green_RUS_1 is TResourceMesh( Mesh=RUS_Green_1 )
+
+export Modele_Blue_RUS_1 is TResourceMesh( Mesh=RUS_Blue_1 )
+export Modele_Blue_RUS_2 is TResourceMesh( Mesh=RUS_Blue_2 )
+export Modele_Blue_RUS_3 is TResourceMesh( Mesh=RUS_Blue_3 )
 
 US_Rifle_1 is 'GameData:/Assets/3D/Units/US/Infanterie/Rifle_1/Rifle_1.fbx'
 US_Rifle_2 is 'GameData:/Assets/3D/Units/US/Infanterie/Rifle_2/Rifle_2.fbx'

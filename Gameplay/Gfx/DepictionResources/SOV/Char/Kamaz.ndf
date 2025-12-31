@@ -1,6 +1,6 @@
 export Modele_Kamaz66 is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/RUS/Char/Kamaz/KAMAZ66.fbx"
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Kamaz66/Kamaz66.fbx"
 )
 
 export Modele_Kamaz66_MID is TResourceMesh

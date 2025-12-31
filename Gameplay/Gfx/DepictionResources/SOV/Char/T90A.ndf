@@ -3,4 +3,10 @@ export Modele_T90A is TResourceMesh
     Mesh="GameData:/Assets/3D/Units/RUS/Char/T90A/T90A.fbx"
 )
 
+export Modele_T90S is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T90S/T90S.fbx"
+)
+
+
 

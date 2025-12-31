@@ -176,3 +176,4 @@ export Modele_Missile_SCALP_out is TResourceMesh( Mesh="GameData:/Assets/3D/Unit
 export Modele_Missile_IRIS is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Bomb/AWOF/IRIS.fbx" )
 export Modele_Missile_TAURUS_in is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Bomb/AWOF/TAURUS_in.fbx" )
 export Modele_Missile_TAURUS_out is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Bomb/AWOF/TAURUS_out.fbx" )
+export Modele_Missile_LMUR is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Bomb/AWOF/LMUR.fbx" )

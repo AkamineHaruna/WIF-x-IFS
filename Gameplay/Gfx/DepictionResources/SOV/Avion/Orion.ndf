@@ -1,0 +1,14 @@
+export Modele_Orion is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Orion/Orion.fbx"
+)
+
+export Modele_Orion_ATGM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Orion/Orion_ATGM.fbx"
+)
+
+export Modele_Orion_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/Orion/Orion_train.fbx"
+)

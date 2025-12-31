@@ -27,3 +27,13 @@ export Modele_KornetT is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/RUS/Char/KornetT/KornetT.fbx"
 )
+
+export Modele_BRM_3 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP3F/BRM3.fbx"
+)
+
+export Modele_BMP_3_APP is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP3_ERA/BMP3_APP.fbx"
+)

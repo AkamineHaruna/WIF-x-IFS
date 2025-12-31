@@ -1,0 +1,34 @@
+export Modele_MI_28N is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI28N/MI28N.fbx"
+)
+
+export Modele_MI_28N_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/LODS/MI28N/MI28N_MID.fbx"
+)
+
+export Modele_MI_28N_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/LODS/MI28N/MI28N_LOW.fbx"
+)
+
+export Modele_MI_28N_AT2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI28N/MI28N_AT2.fbx"
+)
+
+export Modele_MI_28N_AA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI28N/MI28N_AA.fbx"
+)
+
+export Modele_MI_28NM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI28NM/MI28NM.fbx"
+)
+
+export Modele_MI_28NM_AT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI28NM/MI28NM_AT.fbx"
+)

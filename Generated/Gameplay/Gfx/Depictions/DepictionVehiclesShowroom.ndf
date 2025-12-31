@@ -12815,4 +12815,34 @@ unnamed ShowroomVehicleDepictionRegistration
     Alternatives = Alternatives_WF_DCA_S350_RUS
     Selector = SpecificVehicleDepictionSelector
 )
+unnamed ShowroomVehicleDepictionRegistration
+(
+	MimeticName = "showroom_WF_T80BVM_22_RUS"
+    Alternatives = Alternatives_WF_T80BVM_22_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed ShowroomVehicleDepictionRegistration
+(
+	MimeticName = "showroom_WF_T80BV_22_RUS"
+    Alternatives = Alternatives_WF_T80BV_22_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed ShowroomVehicleDepictionRegistration
+(
+	MimeticName = "showroom_WF_BRM_3K_RUS"
+    Alternatives = Alternatives_WF_BRM_3K_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed ShowroomVehicleDepictionRegistration
+(
+	MimeticName = "showroom_WF_BMP_3_APP_RUS"
+    Alternatives = Alternatives_WF_BMP_3_APP_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed ShowroomVehicleDepictionRegistration
+(
+	MimeticName = "showroom_WF_T90S_RUS"
+    Alternatives = Alternatives_WF_T90S_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
 // END NEW //

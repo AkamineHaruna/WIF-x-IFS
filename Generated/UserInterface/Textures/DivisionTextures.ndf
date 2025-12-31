@@ -44,6 +44,14 @@ Texture_Division_Emblem_SOV_31_VDV is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/31VDV.png"
 )
+Texture_Division_Emblem_SOV_155_NAV is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/155NAV.png"
+)
+Texture_Division_Emblem_SOV_20Y_MSD is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/20YM.png"
+)
 
 Texture_Division_Emblem_BEL_16e_Meca is TUIResourceTexture_Common
 (
@@ -492,6 +500,8 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Division_Emblem_SOV_2Y_MSD", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_2Y_MSD)]),
         ("Texture_Division_Emblem_SOV_90Y_TD", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_90Y_TD)]),
         ("Texture_Division_Emblem_SOV_31_VDV", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_31_VDV)]),
+        ("Texture_Division_Emblem_SOV_155_NAV", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_155_NAV)]),
+        ("Texture_Division_Emblem_SOV_20Y_MSD", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_20Y_MSD)]),
 		// END NEW //
         ("Texture_Division_Emblem_BEL_16e_Meca", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_BEL_16e_Meca)]),
         ("Texture_Division_Emblem_BEL_DivMob", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_BEL_DivMob)]),

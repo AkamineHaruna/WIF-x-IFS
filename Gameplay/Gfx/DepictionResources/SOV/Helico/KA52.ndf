@@ -17,3 +17,8 @@ export Modele_Ka_52_AA is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/RUS/Helico/KA52/KA52_AA.fbx"
 )
+
+export Modele_Ka_52K is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/KA52/KA52K.fbx"
+)

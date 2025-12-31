@@ -9060,4 +9060,34 @@ unnamed GhostVehicleDepictionRegistration
 	MimeticName = "WF_DCA_S350_RUS"
     Selector = SpecificVehicleDepictionSelector
 )
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_WF_T80BVM_22_RUS
+	MimeticName = "WF_T80BVM_22_RUS"
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_WF_T80BV_22_RUS
+	MimeticName = "WF_T80BV_22_RUS"
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_WF_BRM_3K_RUS
+	MimeticName = "WF_BRM_3K_RUS"
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_WF_BMP_3_APP_RUS
+	MimeticName = "WF_BMP_3_APP_RUS"
+    Selector = SpecificVehicleDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_WF_T90S_RUS
+	MimeticName = "WF_T90S_RUS"
+    Selector = SpecificVehicleDepictionSelector
+)
 // END NEW //

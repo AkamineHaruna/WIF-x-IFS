@@ -874,4 +874,43 @@ MatrixCostName_WF_GER_10PZ_multi is MAP
     (EFactory/Tanks, [1, 1, 1, 1, 1, 1, 1, 1, 2, 2]),
 ]
 
+MatrixCostName_WF_RUS_31_VDV_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 2, 3, 3]),
+    (EFactory/DCA, [1, 2, 2, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]),
+    (EFactory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 2, 3, 3]),
+]
+
+MatrixCostName_WF_RUS_155_Naval_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+    (EFactory/Logistic, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Tanks, [1, 1, 2, 2, 2, 3, 3, 3]),
+]
+
+MatrixCostName_WF_RUS_20_MSD_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 2, 3, 3]),
+    (EFactory/Defense, []),
+    (EFactory/Helis, [1, 1, 2, 2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 2, 2, 3, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 2, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 1, 2, 2, 2, 3, 3]),
+]
+
 // END NEW //

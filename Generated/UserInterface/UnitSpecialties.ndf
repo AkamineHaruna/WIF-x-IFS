@@ -5,6 +5,116 @@ UnitSpecialties is TUnitSpecialtiesContainer
     Descriptors = MAP
     [
 		(
+            "transport1",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
+                SpecialtyHintTitleToken    = "TRANSTT1"
+                SpecialtyHintBodyToken     = "FBVQTNKGDN"
+                SpecialtyHintExtendedToken     = "TRANSET"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "transport2",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
+                SpecialtyHintTitleToken    = "TRANSTT2"
+                SpecialtyHintBodyToken     = "FBVQTNKGDN"
+                SpecialtyHintExtendedToken     = "TRANSET"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "transport3",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
+                SpecialtyHintTitleToken    = "TRANSTT3"
+                SpecialtyHintBodyToken     = "FBVQTNKGDN"
+				SpecialtyHintExtendedToken     = "TRANSET"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "transport4",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
+                SpecialtyHintTitleToken    = "TRANSTT4"
+                SpecialtyHintBodyToken     = "FBVQTNKGDN"
+				SpecialtyHintExtendedToken     = "TRANSET"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "transport5",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
+                SpecialtyHintTitleToken    = "TRANSTT5"
+                SpecialtyHintBodyToken     = "FBVQTNKGDN"
+				SpecialtyHintExtendedToken     = "TRANSET"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "_canBeAirlifted1",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "AIRLFTT1"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "_canBeAirlifted2",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "AIRLFTT2"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "_canBeAirlifted3",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "AIRLFTT3"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "_canBeAirlifted4",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "AIRLFTT4"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
+            "_canBeAirlifted5",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "AIRLFTT5"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
+                ShowAsFilterInShowroom = True
+            )
+        ),
+		(
             "Radar",
             TUnitSpecialtyDescriptor
             (

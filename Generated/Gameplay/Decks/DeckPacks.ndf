@@ -15478,7 +15478,7 @@ Descriptor_Deck_Pack_WF_T90A_RUS_0_1 is DeckPackDescriptor
 Descriptor_Deck_Pack_WF_Supercam_RUS_0_1 is DeckPackDescriptor
 (
     Xp = 0
-    Unit = $/GFX/Unit/Descriptor_Unit_WF_Supercam_RUS
+    Unit = $/GFX/Unit/Descriptor_Unit_WF_Orion_RUS
     Number = 1
 )
 

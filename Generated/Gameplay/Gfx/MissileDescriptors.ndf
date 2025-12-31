@@ -23696,4 +23696,85 @@ export Descriptor_Missile_Bomb_TAURUS_x1 is TEntityDescriptor
     ]
 )
 
+export Descriptor_Missile_AGM_LMUR_x8 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{21177d7f-604e-4611-9c7b-2db34865770b}
+    ClassNameForDebug  = 'Missile_AGM_LMUR_x8'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AGM_LMUR_x8",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_LMUR
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_LMUR
+                Actions = MAP[
+                    ( "fx_propulsion_on", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 777
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.8726646259971648
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 777
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.08726646259971647
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 750
+            AngleMaxForRandomMouvUncontrollable = 0.0
+            RotationSpeedWhenUncontrollable = 0
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 0.5
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+
 // END NEW //

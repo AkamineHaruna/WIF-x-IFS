@@ -337,6 +337,22 @@ unnamed TCoatingRecipe
 unnamed TCoatingRecipe
 (
     Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Ka_52K_SEAD_RUS'
+    Ingredients = [
+        WF_Ka_52_RUS_landing_gears,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Ka_52K_RUS'
+    Ingredients = [
+        WF_Ka_52_RUS_landing_gears,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
     CoatingName = 'WF_Ka_52_RUS'
     Ingredients = [
         WF_Ka_52_RUS_landing_gears,

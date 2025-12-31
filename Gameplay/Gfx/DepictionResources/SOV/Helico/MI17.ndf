@@ -1,0 +1,9 @@
+export Modele_Mi_17 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI17/MI17.fbx"
+)
+
+export Modele_Mi_17_RKT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI17/MI17_RKT.fbx"
+)

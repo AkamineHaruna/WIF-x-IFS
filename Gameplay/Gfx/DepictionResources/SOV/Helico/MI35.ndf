@@ -27,3 +27,8 @@ export Modele_Mi_35M_AT is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35/MI35_AT.fbx"
 )
+
+export Modele_Mi_35M_Des is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35_2/MI35_DES.fbx"
+)

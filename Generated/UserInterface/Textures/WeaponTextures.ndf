@@ -132,6 +132,14 @@ Texture_Interface_Weapon_Kord is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/Kord.png"
 )
+Texture_Interface_Weapon_DP64 is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/DP64.png"
+)
+Texture_Interface_Weapon_ADS is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/ADS.png"
+)
 // END NEW //
 
 Texture_Interface_Weapon_GIAT_M621 is TUIResourceTexture_Common
@@ -1801,6 +1809,8 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_AK12", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_AK12)]),
         ("Texture_Interface_Weapon_GMG", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_GMG)]),
         ("Texture_Interface_Weapon_Kord", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Kord)]),
+        ("Texture_Interface_Weapon_DP64", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_DP64)]),
+        ("Texture_Interface_Weapon_ADS", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_ADS)]),
 		// END NEW //
         ("Texture_Interface_Weapon_GIAT_M621", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_GIAT_M621)]),
         ("Texture_Interface_Weapon_mk20_rh202", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_mk20_rh202)]),

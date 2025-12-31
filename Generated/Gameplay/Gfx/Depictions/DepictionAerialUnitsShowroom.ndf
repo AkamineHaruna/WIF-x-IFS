@@ -11703,4 +11703,419 @@ unnamed ShowroomAerialDepictionRegistration
         ),
     ]
 )
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Mi_35_Desant_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_35M_Des
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+	SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Mi_35_Desant_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Mi_8MTV5_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Mi_8MTV5_RKT1_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17_RKT
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+	SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Mi_8MTV5_RKT1_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Mi_8MTV5_RKT2_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17_RKT
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+	SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Mi_8MTV5_RKT2_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N
+    MimeticName = "showroom_WF_MI_28N_RUS"
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MI_28N_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_AT2
+    MimeticName = "showroom_WF_MI_28N_AT2_RUS"
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MI_28N_AT2_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_AA
+    MimeticName = "showroom_WF_MI_28N_AA_RUS"
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MI_28N_AA_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28NM
+    MimeticName = "showroom_WF_MI_28NM_RUS"
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MI_28NM_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28NM_AT
+    MimeticName = "showroom_WF_MI_28NM_AT_RUS"
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MI_28NM_AT_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Su_30SM_AA_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_AA
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Su_30SM_AA_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Su_30SM_SEAD_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_SEAD
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Su_30SM_SEAD_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Su_30SM_AT_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_AT
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Su_30SM_AT_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Su_30SM_LGB_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_LGB
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Su_30SM_LGB_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Korsar_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Korsar
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Korsar_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Orion_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Orion
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Orion_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Orion_ATGM_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Orion_ATGM
+	SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Orion_ATGM_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Orion_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Ka_52K_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52K
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Ka_52K_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+	MimeticName = "showroom_WF_Ka_52K_SEAD_RUS"
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52K
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_Ka_52K_SEAD_RUS,
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_31M_SOV
+    MimeticName = "showroom_WF_MiG_31BM_RUS"
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_WF_MiG_31BM_RUS,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_31M_SOV_train
+        ),
+    ]
+)
+
+unnamed ShowroomAerialDepictionRegistration
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Forpost
+    MimeticName = "showroom_WF_Forpost_RUS"
+)
 // END NEW //

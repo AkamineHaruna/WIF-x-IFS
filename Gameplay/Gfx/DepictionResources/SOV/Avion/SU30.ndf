@@ -1,0 +1,44 @@
+export Modele_Su_30SM_AA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU30SM/SU30SM_AA.fbx"
+)
+
+export Modele_Su_30SM_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU30SM/SU30SM_MID.fbx"
+)
+
+export Modele_Su_30SM_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU30SM/SU30SM_LOW.fbx"
+)
+
+export Modele_Su_30SM_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU30SM/SU30SM_train.fbx"
+)
+
+export Modele_Su_30SM_SEAD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU30SM/SU30SM_SEAD.fbx"
+)
+
+export Modele_Su_30SM_AT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU30SM2/SU30SM_AT.fbx"
+)
+
+export Modele_Su_30SM_LGB is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU30SM2/SU30SM_LGB.fbx"
+)
+
+export Modele_Su_30SM2_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU30SM2/SU30SM_MID.fbx"
+)
+
+export Modele_Su_30SM2_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU30SM2/SU30SM_LOW.fbx"
+)

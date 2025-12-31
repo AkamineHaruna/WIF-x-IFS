@@ -12199,4 +12199,154 @@ Alternatives_WF_DCA_S350_RUS is
     DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_S350_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_S350_LOW ),
 ]
+Alternatives_WF_Mi_35_Desant_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_35M_Des ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_35M_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_35M_LOW ),
+]
+Alternatives_WF_Mi_8MTV5_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17 ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TV_non_arme_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TV_non_arme_SOV_LOW ),
+]
+Alternatives_WF_Mi_8MTV5_RKT1_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17_RKT ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8MTV_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8MTV_SOV_LOW ),
+]
+Alternatives_WF_Mi_8MTV5_RKT2_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_17_RKT ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8MTV_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8MTV_SOV_LOW ),
+]
+Alternatives_WF_MI_28N_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_LOW ),
+]
+Alternatives_WF_MI_28N_AT2_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_AT2 ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_LOW ),
+]
+Alternatives_WF_MI_28N_AA_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_AA ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_LOW ),
+]
+Alternatives_WF_MI_28NM_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28NM ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_LOW ),
+]
+Alternatives_WF_MI_28NM_AT_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28NM_AT ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MI_28N_LOW ),
+]
+Alternatives_WF_Su_30SM_AA_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_AA ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_LOW ),
+]
+Alternatives_WF_Su_30SM_SEAD_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_SEAD ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_LOW ),
+]
+Alternatives_WF_Su_30SM_AT_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_AT ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM2_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM2_LOW ),
+]
+Alternatives_WF_Su_30SM_LGB_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM_LGB ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM2_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_30SM2_LOW ),
+]
+Alternatives_WF_Korsar_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Korsar ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Pchela_1T_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Pchela_1T_SOV_LOW ),
+]
+Alternatives_WF_Orion_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Orion ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MQ1C_US_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MQ1C_US_LOW ),
+]
+Alternatives_WF_Orion_ATGM_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Orion_ATGM ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_MQ1C_US_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_MQ1C_US_LOW ),
+]
+Alternatives_WF_T80BVM_22_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BVM_22 ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BV_Beast_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BV_Beast_SOV_LOW ),
+]
+Alternatives_WF_T80BV_22_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BV_22 ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BV_Beast_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_T80BV_Beast_SOV_LOW ),
+]
+Alternatives_WF_BRM_3K_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_BRM_3 ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_3_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_3_SOV_LOW ),
+]
+Alternatives_WF_Ka_52K_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52K ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52_LOW ),
+]
+Alternatives_WF_Ka_52K_SEAD_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52K ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_Ka_52_LOW ),
+]
+Alternatives_WF_BMP_3_APP_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_3_APP ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_3_ERA_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_3_ERA_LOW ),
+]
+Alternatives_WF_T90S_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_T90S ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_T72B_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_T72B_SOV_LOW ),
+]
+Alternatives_WF_MiG_31BM_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_MiG_31M_SOV ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_MiG_31M_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_MiG_31M_SOV_LOW ),
+]
+Alternatives_WF_Forpost_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Forpost ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Pchela_1T_SOV_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_Pchela_1T_SOV_LOW ),
+]
 // END NEW //
