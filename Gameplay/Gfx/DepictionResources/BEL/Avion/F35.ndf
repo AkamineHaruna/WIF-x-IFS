@@ -1,0 +1,4 @@
+export Modele_F35_AA_BEL is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/BEL/Avion/F35/F35_AA.fbx"
+)

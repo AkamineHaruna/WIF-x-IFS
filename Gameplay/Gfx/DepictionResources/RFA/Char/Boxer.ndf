@@ -1,0 +1,35 @@
+export ModelFile_Boxer_50 is 'GameData:/Assets/3D/Units/GER/Char/Boxer_50/Boxer_50.fbx'
+export Modele_Boxer_50 is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_50
+)
+
+export ModelFile_Boxer_50_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Boxer_50/Boxer_MID.fbx'
+export Modele_Boxer_50_MID is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_50_MID
+)
+
+export ModelFile_Boxer_50_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Boxer_50/Boxer_LOW.fbx'
+export Modele_Boxer_50_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_50_LOW
+)
+
+export ModelFile_Boxer_AGL is 'GameData:/Assets/3D/Units/GER/Char/Boxer/Boxer.fbx'
+export Modele_Boxer_AGL is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_AGL
+)
+
+export ModelFile_Boxer_50_NL is 'GameData:/Assets/3D/Units/NL/Char/Boxer/Boxer_NL.fbx'
+export Modele_Boxer_50_NL is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_50_NL
+)
+
+export ModelFile_Boxer_RCT30 is 'GameData:/Assets/3D/Units/NL/Char/Boxer/Boxer_RCT30.fbx'
+export Modele_Boxer_RCT30 is TResourceMesh
+(
+    Mesh=ModelFile_Boxer_RCT30
+)

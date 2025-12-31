@@ -1,0 +1,17 @@
+
+unnamed TResourcePackLoader
+(
+    Packs =
+    [
+        TResourceDescriptorMeshPack
+        (
+            PackName = "Base"
+            PackRelativePath = "Pack/WIF x IFS/Mesh_All.spk"
+        ),
+        TResourceDescriptorProxyPack
+        (
+            PackName = "Base"
+            PackRelativePath = "Pack/WIF x IFS/Mesh_All.ndfbin"
+        ),
+    ]
+)

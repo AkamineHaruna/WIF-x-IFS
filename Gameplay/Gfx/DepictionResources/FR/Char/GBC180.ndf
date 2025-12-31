@@ -1,0 +1,17 @@
+export ModelFile_GBC180 is 'GameData:/Assets/3D/Units/FR/Char/GBC180/GBC180.fbx'
+export Modele_GBC180 is TResourceMesh
+(
+    Mesh=ModelFile_GBC180
+)
+
+export ModelFile_GBC180_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/GBC180/GBC180_MID.fbx'
+export Modele_GBC180_MID is TResourceMesh
+(
+    Mesh=ModelFile_GBC180_MID
+)
+
+export ModelFile_GBC180_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/GBC180/GBC180_LOW.fbx'
+export Modele_GBC180_LOW is TResourceMesh
+(
+    Mesh=ModelFile_GBC180_LOW
+)

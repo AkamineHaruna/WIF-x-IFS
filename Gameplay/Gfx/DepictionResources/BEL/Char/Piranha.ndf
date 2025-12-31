@@ -1,0 +1,59 @@
+export ModelFile_Piranha is 'GameData:/Assets/3D/Units/BEL/Char/Piranha/Piranha.fbx'
+export Modele_Piranha is TResourceMesh
+(
+    Mesh=ModelFile_Piranha
+)
+
+export ModelFile_Piranha_MID is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_MID.fbx'
+export Modele_Piranha_MID is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_MID
+)
+
+export ModelFile_Piranha_LOW is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_LOW.fbx'
+export Modele_Piranha_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_LOW
+)
+
+export ModelFile_Piranha_DF90 is 'GameData:/Assets/3D/Units/BEL/Char/Piranha/Piranha_DF90.fbx'
+export Modele_Piranha_DF90 is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF90
+)
+
+export ModelFile_Piranha_DF90_MID is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_DF90_MID.fbx'
+export Modele_Piranha_DF90_MID is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF90_MID
+)
+
+export ModelFile_Piranha_DF90_LOW is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_DF90_LOW.fbx'
+export Modele_Piranha_DF90_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF90_LOW
+)
+
+export ModelFile_Piranha_DF30 is 'GameData:/Assets/3D/Units/BEL/Char/Piranha/Piranha_DF30.fbx'
+export Modele_Piranha_DF30 is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF30
+)
+
+export ModelFile_Piranha_DF30_MID is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_DF30_MID.fbx'
+export Modele_Piranha_DF30_MID is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF30_MID
+)
+
+export ModelFile_Piranha_DF30_LOW is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Piranha/Piranha_DF30_LOW.fbx'
+export Modele_Piranha_DF30_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF30_LOW
+)
+
+export ModelFile_Piranha_DF30_Spike is 'GameData:/Assets/3D/Units/BEL/Char/Piranha/Piranha_DF30_Spike.fbx'
+export Modele_Piranha_DF30_Spike is TResourceMesh
+(
+    Mesh=ModelFile_Piranha_DF30_Spike
+)

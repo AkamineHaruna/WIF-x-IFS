@@ -1,0 +1,12 @@
+export Modele_NASAMS is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/NL/Canon/NASAMS/NASAMS.fbx'
+)
+//export Modele_NASAMS_MID is TResourceMesh
+//(
+//    Mesh     = 'GameData:/Assets/3D/Units/NL/Canon/LODS/NASAMS/NASAMS_MID.fbx'
+//)
+//export Modele_NASAMS_LOW is TResourceMesh
+//(
+//    Mesh     = 'GameData:/Assets/3D/Units/NL/Canon/LODS/NASAMS/NASAMS_LOW.fbx'
+//)

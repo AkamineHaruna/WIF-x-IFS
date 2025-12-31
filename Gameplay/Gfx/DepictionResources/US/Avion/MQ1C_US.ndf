@@ -1,0 +1,24 @@
+export Modele_MQ1C_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/MQ1C/MQ1C.fbx"
+)
+
+export Modele_MQ1C_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/MQ1C/MQ1C_MID.fbx"
+)
+
+export Modele_MQ1C_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/MQ1C/MQ1C_LOW.fbx"
+)
+
+export Modele_MQ1C_US_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/MQ1C/MQ1C_train.fbx"
+)
+
+export Modele_MQ1C_ATGM_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/MQ1C/MQ1C_CAS.fbx"
+)

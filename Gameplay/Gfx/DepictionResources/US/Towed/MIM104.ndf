@@ -1,0 +1,30 @@
+export Modele_MIM104_US is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/Patriot/Patriot.fbx'
+)
+export Modele_MIM104_US_MID is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/LODS/Patriot/Patriot_MID.fbx'
+)
+export Modele_MIM104_US_LOW is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/LODS/Patriot/Patriot_LOW.fbx'
+)
+
+export Modele_MIM104_Show_US is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/Patriot/Patriot_Show.fbx'
+)
+
+export Modele_MIM104_TOW_US is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/Patriot/Patriot_TOW.fbx'
+)
+export Modele_MIM104_TOW_US_MID is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/LODS/Patriot/Patriot_TOW_MID.fbx'
+)
+export Modele_MIM104_TOW_US_LOW is TResourceMesh
+(
+    Mesh     = 'GameData:/Assets/3D/Units/US/Canon/LODS/Patriot/Patriot_TOW_LOW.fbx'
+)

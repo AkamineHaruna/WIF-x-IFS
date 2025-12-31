@@ -1,0 +1,41 @@
+export ModelFile_Leclerc is 'GameData:/Assets/3D/Units/FR/Char/Leclerc_2/Leclerc.fbx'
+export Modele_Leclerc is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc
+)
+
+export ModelFile_Leclerc_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/Leclerc_2/Leclerc_MID.fbx'
+export Modele_Leclerc_MID is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_MID
+)
+
+export ModelFile_Leclerc_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/Leclerc_2/Leclerc_LOW.fbx'
+export Modele_Leclerc_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_LOW
+)
+
+export ModelFile_Leclerc_XXI is 'GameData:/Assets/3D/Units/FR/Char/Leclerc/Leclerc.fbx'
+export Modele_Leclerc_XXI is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_XXI
+)
+
+export ModelFile_Leclerc_XXI_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/Leclerc/Leclerc_MID.fbx'
+export Modele_Leclerc_XXI_MID is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_XXI_MID
+)
+
+export ModelFile_Leclerc_XXI_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/Leclerc/Leclerc_LOW.fbx'
+export Modele_Leclerc_XXI_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_XXI_LOW
+)
+
+export ModelFile_Leclerc_XLR is 'GameData:/Assets/3D/Units/FR/Char/Leclerc_XLR/Leclerc_XLR.fbx'
+export Modele_Leclerc_XLR is TResourceMesh
+(
+    Mesh=ModelFile_Leclerc_XLR
+)

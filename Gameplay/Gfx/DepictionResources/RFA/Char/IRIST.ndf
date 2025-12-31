@@ -1,0 +1,17 @@
+export ModelFile_IRIST is 'GameData:/Assets/3D/Units/GER/Char/IRIST/IRIST.fbx'
+export Modele_IRIST is TResourceMesh
+(
+    Mesh=ModelFile_IRIST
+)
+
+//export ModelFile_IRIST_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/IRIST/IRIST_MID.fbx'
+//export Modele_IRIST_MID is TResourceMesh
+//(
+//    Mesh=ModelFile_IRIST_MID
+//)
+
+//export ModelFile_IRIST_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/IRIST/IRIST_LOW.fbx'
+//export Modele_IRIST_LOW is TResourceMesh
+//(
+//    Mesh=ModelFile_IRIST_LOW
+//)

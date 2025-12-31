@@ -1,0 +1,35 @@
+export ModelFile_CAESAR is 'GameData:/Assets/3D/Units/FR/Char/CAESAR/CAESAR.fbx'
+export Modele_CAESAR is TResourceMesh
+(
+    Mesh=ModelFile_CAESAR
+)
+
+export ModelFile_CAESAR_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/CAESAR/CAESAR_MID.fbx'
+export Modele_CAESAR_MID is TResourceMesh
+(
+    Mesh=ModelFile_CAESAR_MID
+)
+
+export ModelFile_CAESAR_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/CAESAR/CAESAR_LOW.fbx'
+export Modele_CAESAR_LOW is TResourceMesh
+(
+    Mesh=ModelFile_CAESAR_LOW
+)
+
+export ModelFile_CROTALE is 'GameData:/Assets/3D/Units/FR/Char/CAESAR/CROTALE.fbx'
+export Modele_CROTALE is TResourceMesh
+(
+    Mesh=ModelFile_CROTALE
+)
+
+export ModelFile_CROTALE_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/CAESAR/CROTALE_MID.fbx'
+export Modele_CROTALE_MID is TResourceMesh
+(
+    Mesh=ModelFile_CROTALE_MID
+)
+
+export ModelFile_CROTALE_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/CAESAR/CROTALE_LOW.fbx'
+export Modele_CROTALE_LOW is TResourceMesh
+(
+    Mesh=ModelFile_CROTALE_LOW
+)

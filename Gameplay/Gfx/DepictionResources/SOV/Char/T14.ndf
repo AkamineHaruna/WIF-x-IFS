@@ -1,0 +1,30 @@
+export Modele_T14 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T14/T14.fbx"
+)
+
+export Modele_T14_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T14/T14_MID.fbx"
+)
+
+export Modele_T14_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T14/T14_LOW.fbx"
+)
+
+export Modele_T15 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T14/T15.fbx"
+)
+
+export Modele_T15_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T14/T15_MID.fbx"
+)
+
+export Modele_T15_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T14/T15_LOW.fbx"
+)
+

@@ -1,0 +1,23 @@
+export ModelFile_CV90 is 'GameData:/Assets/3D/Units/NL/Char/CV90/CV90.fbx'
+export Modele_CV9035 is TResourceMesh
+(
+    Mesh=ModelFile_CV90
+)
+
+export ModelFile_CV90_MID is 'GameData:/Assets/3D/Units/NL/Char/LODS/CV90/CV90_MID.fbx'
+export Modele_CV9035_MID is TResourceMesh
+(
+    Mesh=ModelFile_CV90_MID
+)
+
+export ModelFile_CV90_LOW is 'GameData:/Assets/3D/Units/NL/Char/LODS/CV90/CV90_LOW.fbx'
+export Modele_CV9035_LOW is TResourceMesh
+(
+    Mesh=ModelFile_CV90_LOW
+)
+
+export ModelFile_CV90_MLU is 'GameData:/Assets/3D/Units/NL/Char/CV90/CV90_MLU.fbx'
+export Modele_CV9035_MLU is TResourceMesh
+(
+    Mesh=ModelFile_CV90_MLU
+)

@@ -1,0 +1,34 @@
+export Modele_F35_AA_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F35/F35.fbx"
+)
+
+export Modele_F35_AA_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/F35/F35_MID.fbx"
+)
+
+export Modele_F35_AA_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/F35/F35_LOW.fbx"
+)
+
+export Modele_F35_US_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F35/F35_train.fbx"
+)
+
+export Modele_F35_JDAM_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F35/F35_CAS.fbx"
+)
+
+export Modele_F35_AA2_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F35/F35_AA2.fbx"
+)
+
+export Modele_F35_JDAM2_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F35/F35_CAS2.fbx"
+)

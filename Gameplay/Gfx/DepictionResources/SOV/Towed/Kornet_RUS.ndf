@@ -1,0 +1,6 @@
+export Modele_Kornet is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Canon/Kornet/Kornet.fbx"
+)
+
+

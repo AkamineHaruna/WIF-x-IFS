@@ -1,0 +1,17 @@
+export ModelFile_Spike is 'GameData:/Assets/3D/Units/BEL/Canon/Spike/Spike.fbx'
+export Modele_ATteam_Spike is TResourceMesh
+(
+    Mesh=ModelFile_Spike
+)
+
+//export ModelFile_Spike_MID is 'GameData:/Assets/3D/Units/BEL/Canon/LODS/Spike/Spike_MID.fbx'
+//export Modele_ATteam_Spike_MID is TResourceMesh
+//(
+//    Mesh=ModelFile_Spike_MID
+//)
+
+//export ModelFile_Spike_LOW is 'GameData:/Assets/3D/Units/BEL/Canon/LODS/Spike/Spike_LOW.fbx'
+//export Modele_ATteam_Spike_LOW is TResourceMesh
+//(
+//    Mesh=ModelFile_Spike_LOW
+//)

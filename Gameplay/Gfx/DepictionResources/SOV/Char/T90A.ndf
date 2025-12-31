@@ -1,0 +1,6 @@
+export Modele_T90A is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T90A/T90A.fbx"
+)
+
+

@@ -1,0 +1,44 @@
+export Modele_MATV_HMG_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/MATV/MATV_turret.fbx"
+)
+
+export Modele_MATV_HMG_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_turret_MID.fbx"
+)
+
+export Modele_MATV_HMG_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_turret_LOW.fbx"
+)
+
+export Modele_MATV_RWS_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/MATV/MATV_RWS.fbx"
+)
+
+export Modele_MATV_RWS_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_RWS_MID.fbx"
+)
+
+export Modele_MATV_RWS_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_RWS_LOW.fbx"
+)
+
+export Modele_MATV_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/MATV/MATV.fbx"
+)
+
+export Modele_MATV_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_MID.fbx"
+)
+
+export Modele_MATV_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/MATV/MATV_LOW.fbx"
+)

@@ -1,0 +1,14 @@
+export Modele_BRDM_2M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BRDM/BRDM.fbx"
+)
+
+export Modele_BRDM_2M_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BRDM/BRDM_MID.fbx"
+)
+
+export Modele_BRDM_2M_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BRDM/BRDM_LOW.fbx"
+)

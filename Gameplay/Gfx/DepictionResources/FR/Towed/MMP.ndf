@@ -1,0 +1,17 @@
+export ModelFile_MMP is 'GameData:/Assets/3D/Units/FR/Canon/MMP/MMP.fbx'
+export Modele_ATteam_MMP is TResourceMesh
+(
+    Mesh=ModelFile_MMP
+)
+
+//export ModelFile_MMP_MID is 'GameData:/Assets/3D/Units/FR/Canon/LODS/MMP/MMP_MID.fbx'
+//export Modele_ATteam_MMP_MID is TResourceMesh
+//(
+//    Mesh=ModelFile_MMP_MID
+//)
+
+//export ModelFile_MMP_LOW is 'GameData:/Assets/3D/Units/FR/Canon/LODS/MMP/MMP_LOW.fbx'
+//export Modele_ATteam_MMP_LOW is TResourceMesh
+//(
+//    Mesh=ModelFile_MMP_LOW
+//)

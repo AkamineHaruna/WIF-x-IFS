@@ -1,0 +1,30 @@
+export Modele_HIMARS_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/HIMARS/HIMARS.fbx"
+)
+
+export Modele_HIMARS_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HIMARS/HIMARS_Mid.fbx"
+)
+
+export Modele_HIMARS_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HIMARS/HIMARS_Low.fbx"
+)
+
+export Modele_HIMARS_ATACMS_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/HIMARS/ATACMS.fbx"
+)
+
+export Modele_HIMARS_ATACMS_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HIMARS/ATACMS_Mid.fbx"
+)
+
+export Modele_HIMARS_ATACMS_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HIMARS/ATACMS_Low.fbx"
+)
+

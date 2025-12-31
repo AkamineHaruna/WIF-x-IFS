@@ -1,0 +1,9 @@
+export Modele_Cougar_HE_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/Cougar/Mastiff.fbx"
+)
+
+export Modele_Cougar_HE_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/Cougar/Mastiff_MID.fbx"
+)

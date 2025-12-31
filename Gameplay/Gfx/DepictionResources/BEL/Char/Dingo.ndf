@@ -1,0 +1,29 @@
+export ModelFile_Dingo_BEL is 'GameData:/Assets/3D/Units/BEL/Char/Dingo/Dingo.fbx'
+export Modele_Dingo_BEL is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_BEL
+)
+
+export ModelFile_Dingo_MID is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Dingo/Dingo_MID.fbx'
+export Modele_Dingo_MID is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_MID
+)
+
+export ModelFile_Dingo_LOW is 'GameData:/Assets/3D/Units/BEL/Char/LODS/Dingo/Dingo_LOW.fbx'
+export Modele_Dingo_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_LOW
+)
+
+export ModelFile_Dingo_MAG_BEL is 'GameData:/Assets/3D/Units/BEL/Char/Dingo/Dingo_MAG.fbx'
+export Modele_Dingo_MAG_BEL is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_MAG_BEL
+)
+
+export ModelFile_Dingo_LUX is 'GameData:/Assets/3D/Units/BEL/Char/Dingo/Dingo_LUX.fbx'
+export Modele_Dingo_LUX is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_LUX
+)

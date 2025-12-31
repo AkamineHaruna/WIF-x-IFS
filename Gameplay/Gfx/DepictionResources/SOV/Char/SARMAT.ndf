@@ -1,0 +1,19 @@
+export Modele_SARMAT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Sarmat/Sarmat.fbx"
+)
+
+export Modele_SARMAT_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Sarmat/Sarmat_MID.fbx"
+)
+
+export Modele_SARMAT_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Sarmat/Sarmat_LOW.fbx"
+)
+
+export Modele_SARMAT_KORD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Sarmat/Sarmat_kord.fbx"
+)

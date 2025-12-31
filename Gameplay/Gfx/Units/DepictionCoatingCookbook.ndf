@@ -1,0 +1,483 @@
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Puma_Orchidee_FR'
+    Ingredients = [
+        Puma_Orchidee_FR_radar_coating_ingredient,
+        Puma_Orchidee_FR_landing_gears_coating_ingredient
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+	Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'OH58A_Gatling_CAN'
+    Ingredients = [
+        OH58A_Gatling_CAN_tourelle_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'F117_Nighthawk_CBU_US'
+    Ingredients = [
+        F117_Nighthawk_trapdoor_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'F117_Nighthawk_US'
+    Ingredients = [
+        F117_Nighthawk_trapdoor_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'F117_Nighthawk_napalm_US'
+    Ingredients = [
+        F117_Nighthawk_trapdoor_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_POL'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24VP_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_AT_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_AA_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24P_s8_AT_DDR'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24P_s8_AT2_DDR'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24P_AA_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s5_AT_DDR'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s8_AT_DDR'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_AA_DDR'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24P_SOV'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24P_TCH'
+    Ingredients = [
+        Mi_24V_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24K_reco_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_Desant_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT2_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_POL'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s8_AT_POL'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s5_AT_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s8_AT_SOV'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s5_AT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_AT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT2_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Ka_50_SOV'
+    Ingredients = [
+        Ka_50_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Ka_50_AA_SOV'
+    Ingredients = [
+        Ka_50_SOV_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_14PL_recon_DDR'
+    Ingredients = [
+        Mi_14PL_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_14PL_AT_DDR'
+    Ingredients = [
+        Mi_14PL_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Faun_Kraka_20mm_RFA_turret1'
+    Ingredients = [
+        Faun_Kraka_20mm_RFA_offset_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Faun_Kraka_M40A1_RFA_turret1'
+    Ingredients = [
+        Faun_Kraka_M40A1_RFA_offset_coating_ingredient,
+    ]
+)
+
+
+// NEW //
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Ka_52_AA_RUS'
+    Ingredients = [
+        WF_Ka_52_RUS_landing_gears,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Ka_52_RUS'
+    Ingredients = [
+        WF_Ka_52_RUS_landing_gears,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Su_57_SEAD_RUS'
+    Ingredients = [
+        WF_Su_57_RUS_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Su_57_AA2_RUS'
+    Ingredients = [
+        WF_Su_57_RUS_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_Su_57_AA1_RUS'
+    Ingredients = [
+        WF_Su_57_RUS_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_B2_Spirit_MOP_US'
+    Ingredients = [
+        WF_B2_Spirit_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_B2_Spirit_JSOW_US'
+    Ingredients = [
+        WF_B2_Spirit_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_B2_Spirit_US'
+    Ingredients = [
+        WF_B2_Spirit_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F35_Lightning_JDAM2_US'
+    Ingredients = [
+        WF_F35_Lightning_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F35_Lightning_AA2_US'
+    Ingredients = [
+        WF_F35_Lightning_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F35_Lightning_JDAM_US'
+    Ingredients = [
+        WF_F35_Lightning_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F35_Lightning_AA_US'
+    Ingredients = [
+        WF_F35_Lightning_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F22A_Raptor_AA2_US'
+    Ingredients = [
+        WF_F22A_Raptor_AA_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F22A_Raptor_AA_US'
+    Ingredients = [
+        WF_F22A_Raptor_AA_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F22A_Raptor_JDAM2_US'
+    Ingredients = [
+        WF_F22A_Raptor_AA_US_trapdoor,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_F22A_Raptor_JDAM_US'
+    Ingredients = [
+        WF_F22A_Raptor_AA_US_trapdoor,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_NH90_Supply_FR'
+    Ingredients = [
+        WF_NH90_FR_landing_gears_coating_ingredient,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_NH90_Gun_FR'
+    Ingredients = [
+        WF_NH90_FR_landing_gears_coating_ingredient,
+    ]
+)
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'WF_NH90_trans_GER'
+    Ingredients = [
+        WF_NH90_FR_landing_gears_coating_ingredient,
+    ]
+)
+
+// END NEW //

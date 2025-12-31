@@ -1,0 +1,29 @@
+export Modele_MTLBM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/MTLB/MTLBM.fbx"
+)
+
+export Modele_MTLBM_6MB is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/MTLB/MTLB_6M.fbx"
+)
+
+export Modele_MTLBM_6MB_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/MTLB/MTLB_6M_MID.fbx"
+)
+
+export Modele_MTLBM_6MB_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/MTLB/MTLB_6M_LOW.fbx"
+)
+
+export Modele_MT12 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/MT12/MT12.fbx"
+)
+
+export Modele_ZU23 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/MT12/ZU23.fbx"
+)

@@ -1,0 +1,19 @@
+export Modele_UHT_ATGM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Helico/Tiger/UHT_ATGM.fbx"
+)
+
+export Modele_UHT_Gun is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Helico/Tiger/UHT_Gun.fbx"
+)
+
+export Modele_UHT_HOT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Helico/Tiger/UHT_HOT.fbx"
+)
+
+export Modele_UHT_Multi is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Helico/Tiger/UHT_Multi.fbx"
+)

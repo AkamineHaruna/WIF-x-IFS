@@ -1,0 +1,4 @@
+export Modele_Buk_M3 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BUKM3/BUKM3.fbx"
+)

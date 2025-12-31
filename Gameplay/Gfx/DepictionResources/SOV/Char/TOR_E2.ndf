@@ -1,0 +1,4 @@
+export Modele_Tor_E2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/TORM2/TORM2.fbx"
+)

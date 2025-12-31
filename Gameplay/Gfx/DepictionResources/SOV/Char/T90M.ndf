@@ -1,0 +1,14 @@
+export Modele_T90M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T90M/T90M.fbx"
+)
+
+export Modele_T90M_ERA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T90M_2/T90M_2.fbx"
+)
+
+export Modele_T90M_ARENA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T90M_Arena/T90M_Arena.fbx"
+)

@@ -1,0 +1,17 @@
+export ModelFile_EBRC is 'GameData:/Assets/3D/Units/FR/Char/EBRC/EBRC.fbx'
+export Modele_EBRC is TResourceMesh
+(
+    Mesh=ModelFile_EBRC
+)
+
+export ModelFile_EBRC_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/EBRC/EBRC_MID.fbx'
+export Modele_EBRC_MID is TResourceMesh
+(
+    Mesh=ModelFile_EBRC_MID
+)
+
+export ModelFile_EBRC_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/EBRC/EBRC_LOW.fbx'
+export Modele_EBRC_LOW is TResourceMesh
+(
+    Mesh=ModelFile_EBRC_LOW
+)

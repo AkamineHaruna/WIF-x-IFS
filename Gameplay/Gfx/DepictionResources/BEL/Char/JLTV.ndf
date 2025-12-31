@@ -1,0 +1,23 @@
+export ModelFile_JLTV is 'GameData:/Assets/3D/Units/BEL/Char/JLTV/JLTV.fbx'
+export Modele_JLTV is TResourceMesh
+(
+    Mesh=ModelFile_JLTV
+)
+
+//export ModelFile_JLTV_MID is 'GameData:/Assets/3D/Units/BEL/Char/LODS/JLTV/JLTV_MID.fbx'
+//export Modele_JLTV_MID is TResourceMesh
+//(
+//    Mesh=ModelFile_JLTV_MID
+//)
+
+//export ModelFile_JLTV_LOW is 'GameData:/Assets/3D/Units/BEL/Char/LODS/JLTV/JLTV_LOW.fbx'
+//export Modele_JLTV_LOW is TResourceMesh
+//(
+//    Mesh=ModelFile_JLTV_LOW
+//)
+
+export ModelFile_JLTV_RWS is 'GameData:/Assets/3D/Units/BEL/Char/JLTV/JLTV_RWS.fbx'
+export Modele_JLTV_RWS is TResourceMesh
+(
+    Mesh=ModelFile_JLTV_RWS
+)

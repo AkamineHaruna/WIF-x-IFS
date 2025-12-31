@@ -1,0 +1,19 @@
+export Modele_BMP_1AM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP1AM/BMP1AM.fbx"
+)
+
+export Modele_BMP_1AM_Cage is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP1AM/BMP1AM_Cage.fbx"
+)
+
+export Modele_BMP_Cage is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP_CAGE/Cage.fbx"
+)
+
+export Modele_BMP_Cage_2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP_CAGE/Cage_2.fbx"
+)

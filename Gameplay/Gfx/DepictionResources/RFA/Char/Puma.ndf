@@ -1,0 +1,23 @@
+export ModelFile_Puma is 'GameData:/Assets/3D/Units/GER/Char/Puma_Basic/Puma_Basic.fbx'
+export Modele_Puma is TResourceMesh
+(
+    Mesh=ModelFile_Puma
+)
+
+export ModelFile_Puma_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Puma/Puma_MID.fbx'
+export Modele_Puma_MID is TResourceMesh
+(
+    Mesh=ModelFile_Puma_MID
+)
+
+export ModelFile_Puma_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Puma/Puma_LOW.fbx'
+export Modele_Puma_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Puma_LOW
+)
+
+export ModelFile_Puma_Spike is 'GameData:/Assets/3D/Units/GER/Char/Puma/Puma.fbx'
+export Modele_Puma_Spike is TResourceMesh
+(
+    Mesh=ModelFile_Puma_Spike
+)

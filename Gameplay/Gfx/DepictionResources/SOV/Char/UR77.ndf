@@ -1,0 +1,4 @@
+export Modele_UR77 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/UR77/UR77.fbx"
+)

@@ -1,0 +1,24 @@
+export Modele_BMD_4M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMD4_2/BMD4_2.fbx"
+)
+
+export Modele_BMD_4M_APP is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMD4/BMD4.fbx"
+)
+
+export Modele_BTR_MDM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMD4/MDM.fbx"
+)
+
+export Modele_KornetD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMD4/KornetD.fbx"
+)
+
+export Modele_SPRUT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Sprut/Sprut.fbx"
+)

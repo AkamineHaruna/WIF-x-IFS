@@ -1,0 +1,54 @@
+export Modele_Mirage_5F is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_5F.fbx"
+)
+
+export Modele_Mirage_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage/Mirage_MID.fbx"
+)
+
+export Modele_Mirage_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage/Mirage_LOW.fbx"
+)
+
+export Modele_Mirage_D_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage_D/Mirage_MID.fbx"
+)
+
+export Modele_Mirage_D_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage_D/Mirage_LOW.fbx"
+)
+
+export Modele_Mirage_DM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_DM.fbx"
+)
+
+export Modele_Mirage_DM2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_DM2.fbx"
+)
+
+export Modele_Mirage_DM3 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_DM3.fbx"
+)
+
+export Modele_Mirage_DM4 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_DM4.fbx"
+)
+
+export Modele_Mirage_DM5 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_DM5.fbx"
+)
+
+export Modele_Mirage_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Avion/Mirage/Mirage_train.fbx"
+)

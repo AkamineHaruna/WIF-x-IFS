@@ -1,0 +1,19 @@
+export Modele_RQ7_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/RQ7/RQ7.fbx"
+)
+
+export Modele_RQ7_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/RQ7/RQ7_MID.fbx"
+)
+
+export Modele_RQ7_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/RQ7/RQ7_LOW.fbx"
+)
+
+export Modele_RQ7_US_train is TResourceMesh
+(
+    Mesh=ModelFile_Support_Drones
+)

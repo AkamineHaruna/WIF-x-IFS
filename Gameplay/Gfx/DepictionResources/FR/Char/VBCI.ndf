@@ -1,0 +1,23 @@
+export ModelFile_VBCI is 'GameData:/Assets/3D/Units/FR/Char/VBCI/VBCI.fbx'
+export Modele_VBCI is TResourceMesh
+(
+    Mesh=ModelFile_VBCI
+)
+
+export ModelFile_VBCI_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBCI/VBCI_MID.fbx'
+export Modele_VBCI_MID is TResourceMesh
+(
+    Mesh=ModelFile_VBCI_MID
+)
+
+export ModelFile_VBCI_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBCI/VBCI_LOW.fbx'
+export Modele_VBCI_LOW is TResourceMesh
+(
+    Mesh=ModelFile_VBCI_LOW
+)
+
+export ModelFile_VBCI_CMD is 'GameData:/Assets/3D/Units/FR/Char/VBCI/VCP.fbx'
+export Modele_VBCI_CMD is TResourceMesh
+(
+    Mesh=ModelFile_VBCI_CMD
+)

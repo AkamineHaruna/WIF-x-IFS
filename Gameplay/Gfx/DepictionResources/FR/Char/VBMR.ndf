@@ -1,0 +1,47 @@
+export ModelFile_VBMR is 'GameData:/Assets/3D/Units/FR/Char/VBMR/VBMR.fbx'
+export Modele_VBMR is TResourceMesh
+(
+    Mesh=ModelFile_VBMR
+)
+
+export ModelFile_VBMR_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBMR/VBMR_MID.fbx'
+export Modele_VBMR_MID is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_MID
+)
+
+export ModelFile_VBMR_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBMR/VBMR_LOW.fbx'
+export Modele_VBMR_LOW is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_LOW
+)
+
+export ModelFile_VBMR_CP is 'GameData:/Assets/3D/Units/FR/Char/VBMR/VBMR_CP.fbx'
+export Modele_VBMR_CP is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_CP
+)
+
+export ModelFile_VBMR_120 is 'GameData:/Assets/3D/Units/FR/Char/VBMR/VBMR_120.fbx'
+export Modele_VBMR_120 is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_120
+)
+
+export ModelFile_VBMR_120_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBMR/VBMR_120_MID.fbx'
+export Modele_VBMR_120_MID is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_120_MID
+)
+
+export ModelFile_VBMR_120_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/VBMR/VBMR_120_LOW.fbx'
+export Modele_VBMR_120_LOW is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_120_LOW
+)
+
+export ModelFile_VBMR_VOA is 'GameData:/Assets/3D/Units/FR/Char/VBMR/VBMR_VOA.fbx'
+export Modele_VBMR_VOA is TResourceMesh
+(
+    Mesh=ModelFile_VBMR_VOA
+)

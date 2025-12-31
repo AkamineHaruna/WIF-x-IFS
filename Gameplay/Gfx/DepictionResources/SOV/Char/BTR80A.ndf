@@ -1,0 +1,39 @@
+export Modele_BTR_80A is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BTR82A/BTR82A.fbx"
+)
+
+export Modele_BTR_80A_ATGM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BTR82AT2/BTR82AT2.fbx"
+)
+
+export Modele_BTR_80A_ATGM_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BTR82A/BTR82A_ATGM_MID.fbx"
+)
+
+export Modele_BTR_82A is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BTR82AT/BTR82AT.fbx"
+)
+
+export Modele_BTR_82AT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BTR82AT_CAGE/BTR82AT_CAGE.fbx"
+)
+
+export Modele_BTR_90 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BTR90/BTR90.fbx"
+)
+
+export Modele_BTR_90_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BTR90/BTR90_MID.fbx"
+)
+
+export Modele_BTR_90_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BTR90/BTR90_LOW.fbx"
+)

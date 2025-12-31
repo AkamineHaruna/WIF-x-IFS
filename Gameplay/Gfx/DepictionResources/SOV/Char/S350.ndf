@@ -1,0 +1,14 @@
+export Modele_S350 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/S350/S350.fbx"
+)
+
+export Modele_S350_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/S350/S350_MID.fbx"
+)
+
+export Modele_S350_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/S350/S350_LOW.fbx"
+)

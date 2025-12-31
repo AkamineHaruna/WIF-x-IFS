@@ -1,0 +1,4 @@
+export Modele_Supercam is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SuperCam/SuperCam.fbx"
+)

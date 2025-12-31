@@ -1,0 +1,17 @@
+export ModelFile_VPS is 'GameData:/Assets/3D/Units/FR/Char/VPS/VPS.fbx'
+export Modele_VPS is TResourceMesh
+(
+    Mesh=ModelFile_VPS
+)
+
+export ModelFile_VPS_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/VPS/VPS_MID.fbx'
+export Modele_VPS_MID is TResourceMesh
+(
+    Mesh=ModelFile_VPS_MID
+)
+
+export ModelFile_VPS_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/VPS/VPS_LOW.fbx'
+export Modele_VPS_LOW is TResourceMesh
+(
+    Mesh=ModelFile_VPS_LOW
+)

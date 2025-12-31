@@ -1,0 +1,29 @@
+export Modele_Tigr_HMG is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Tigr/Tigr.fbx"
+)
+
+export Modele_Tigr_HMG_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Tigr/Tigr_MID.fbx"
+)
+
+export Modele_Tigr_HMG_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Tigr/Tigr_LOW.fbx"
+)
+
+export Modele_Tigr is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Tigr/Tigr_Base.fbx"
+)
+
+export Modele_Tigr_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Tigr/Tigr_Base_MID.fbx"
+)
+
+export Modele_Tigr_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Tigr/Tigr_Base_LOW.fbx"
+)

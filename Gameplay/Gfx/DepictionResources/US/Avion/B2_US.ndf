@@ -1,0 +1,24 @@
+export Modele_B2_Spirit_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/B2/B2.fbx"
+)
+
+export Modele_B2_Spirit_MOP_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/B2/B2_MOP.fbx"
+)
+
+export Modele_B2_Spirit_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/B2/B2_MID.fbx"
+)
+
+export Modele_B2_Spirit_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/B2/B2_LOW.fbx"
+)
+
+export Modele_B2_Spirit_US_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/B2/B2_train.fbx"
+)

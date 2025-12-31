@@ -1,0 +1,29 @@
+export Modele_M2A3_Bradley_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M2A3/M2A3.fbx"
+)
+
+export Modele_M7A3_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M2A3/M7A3.fbx"
+)
+
+export Modele_M2A4_Bradley_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M2A3/M2A4.fbx"
+)
+
+export Modele_M2A4_Bradley_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/M2A3/M2A4_MID.fbx"
+)
+
+export Modele_M2A4_Bradley_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/M2A3/M2A4_LOW.fbx"
+)
+
+export Modele_M2A3_Bradley_Basic_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M2A3/M2A3_Basic.fbx"
+)

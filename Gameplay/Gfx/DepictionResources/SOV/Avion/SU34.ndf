@@ -1,0 +1,24 @@
+export Modele_Su_34_LGB1 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU34/SU34.fbx"
+)
+
+export Modele_Su_34_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU34/SU34_MID.fbx"
+)
+
+export Modele_Su_34_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU34/SU34_LOW.fbx"
+)
+
+export Modele_Su_34_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU34/SU34_train.fbx"
+)
+
+export Modele_Su_34_AT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU34/SU34_AT.fbx"
+)

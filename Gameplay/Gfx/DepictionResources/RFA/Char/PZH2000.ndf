@@ -1,0 +1,23 @@
+export ModelFile_PZH_2000 is 'GameData:/Assets/3D/Units/GER/Char/Pzh_2000/Pzh_2000.fbx'
+export Modele_PZH_2000 is TResourceMesh
+(
+    Mesh=ModelFile_PZH_2000
+)
+
+export ModelFile_PZH_2000_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Pzh_2000/Pzh_2000_MID.fbx'
+export Modele_PZH_2000_MID is TResourceMesh
+(
+    Mesh=ModelFile_PZH_2000_MID
+)
+
+export ModelFile_PZH_2000_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Pzh_2000/Pzh_2000_LOW.fbx'
+export Modele_PZH_2000_LOW is TResourceMesh
+(
+    Mesh=ModelFile_PZH_2000_LOW
+)
+
+export ModelFile_PZH_2000_alt is 'GameData:/Assets/3D/Units/GER/Char/Pzh_2000_alt/Pzh_2000.fbx'
+export Modele_PZH_2000_alt is TResourceMesh
+(
+    Mesh=ModelFile_PZH_2000_alt
+)

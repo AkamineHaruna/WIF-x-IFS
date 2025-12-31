@@ -1,0 +1,23 @@
+export ModelFile_VT4 is 'GameData:/Assets/3D/Units/FR/Char/VT4/VT4.fbx'
+export Modele_VT4 is TResourceMesh
+(
+    Mesh=ModelFile_VT4
+)
+
+export ModelFile_VT4_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/VT4/VT4_MID.fbx'
+export Modele_VT4_MID is TResourceMesh
+(
+    Mesh=ModelFile_VT4_MID
+)
+
+export ModelFile_VT4_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/VT4/VT4_LOW.fbx'
+export Modele_VT4_LOW is TResourceMesh
+(
+    Mesh=ModelFile_VT4_LOW
+)
+
+export ModelFile_PVP is 'GameData:/Assets/3D/Units/FR/Char/PVP/PVP.fbx'
+export Modele_PVP is TResourceMesh
+(
+    Mesh=ModelFile_PVP
+)

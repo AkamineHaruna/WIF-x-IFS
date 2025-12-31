@@ -1,0 +1,6 @@
+export Modele_BMP2M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP2M/BMP2M.fbx"
+)
+
+

@@ -1,0 +1,14 @@
+export Modele_BMPT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMPT/BMPT.fbx"
+)
+
+export Modele_BMPT_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BMPT/BMPT_MID.fbx"
+)
+
+export Modele_BMPT_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BMPT/BMPT_LOW.fbx"
+)

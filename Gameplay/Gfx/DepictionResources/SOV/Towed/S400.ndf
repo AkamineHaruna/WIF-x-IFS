@@ -1,0 +1,19 @@
+export Modele_S400 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Canon/S400/S400.fbx"
+)
+
+export Modele_S400_Tow is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Canon/S400/S400_Tow.fbx"
+)
+
+export Modele_S400_Truck is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Canon/S400/S400_Truck.fbx"
+)
+
+export Modele_S400_Radar is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Canon/S400/S400_Radar.fbx"
+)

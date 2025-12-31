@@ -1,0 +1,6 @@
+export Modele_2S34 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/2S34/2S34.fbx"
+)
+
+

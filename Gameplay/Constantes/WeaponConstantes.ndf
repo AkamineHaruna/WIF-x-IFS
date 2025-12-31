@@ -1,0 +1,86 @@
+export WeaponConstantes is TWeaponConstantsDescriptor
+(
+    //---------------------------------------------------------------------------------------//
+    //------------------------------------- Constantes --------------------------------------//
+    //---------------------------------------------------------------------------------------//
+
+    StressMultiplierPerDamageFamily = MAP
+    [
+        (
+            DamageFamily_suppress,
+            0.0
+        ),
+        (
+            DamageFamily_suppressap,
+            0.0
+        ),
+    ]
+
+    DefaultSuppressDamage = TDamageTypeRTTI(Family=DamageFamily_suppress Index=1)
+    SuppressDamagePerFamily = MAP
+    [
+        (
+            DamageFamily_ap,
+            TDamageTypeRTTI(Family=DamageFamily_suppressap Index=1)
+        ),
+        (
+            DamageFamily_ap_missile,
+            TDamageTypeRTTI(Family=DamageFamily_suppressap Index=1)
+        ),
+        (
+            DamageFamily_he_dca,
+            TDamageTypeRTTI(Family=DamageFamily_suppressdca Index=1)
+        ),
+    ]
+
+    ResistanceFamiliesNeedPiercing =
+    [
+        ResistanceFamily_blindage,
+		ResistanceFamily_blindage_era,
+        ResistanceFamily_blindage_cage,
+    ]
+
+    PierceBonusForDamageFamilies = MAP
+    [
+        (
+            DamageFamily_ap_missile,
+            31
+        ),
+		(
+            DamageFamily_ap_missile_tandem,
+            31
+        ),
+		(
+            DamageFamily_ap,
+            40
+        ),
+    ]
+
+    ResistanceToMimeticImpact = MAP
+    [
+        (ResistanceFamily_batiment, EImpactSurface/Wall),
+        (ResistanceFamily_infanterie, EImpactSurface/Ground),
+    ]
+
+    DamageTypeToMimeticProjectile = MAP
+    [
+        (DamageFamily_ap, EImpactProjectile/APShell),
+        (DamageFamily_ap_missile, EImpactProjectile/APShell),
+		(DamageFamily_ap_missile_tandem, EImpactProjectile/APShell),
+        (DamageFamily_he, EImpactProjectile/HEShell),
+		
+    ]
+
+    BlindagesToIgnoreForDamageFamilies = MAP
+    [
+        (DamageFamily_he, [ResistanceFamily_blindage, ResistanceFamily_blindage_era, ResistanceFamily_blindage_cage,]),
+    ]
+
+    //-----------------------------------------
+    // Valeurs de EfficientShot par défaut
+    EfficientShotMinAccuracy = 0.0
+    EfficientShotMinPenetration = 0.4
+
+    // Garder synchro avec DEFENSIVESMOKERANGEMAX dans FileWritersCommon/AmmunitionFileWriter.py
+    DefensiveSmokeRangeMaxGRU = 88
+)

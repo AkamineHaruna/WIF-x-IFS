@@ -1,0 +1,24 @@
+export Modele_NH90 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/NH90/NH90.fbx"
+)
+
+export Modele_NH90_Gun is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/NH90/NH90_Gun.fbx"
+)
+
+export Modele_NH90_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/LODS/NH90/NH90_MID.fbx"
+)
+
+export Modele_NH90_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/LODS/NH90/NH90_LOW.fbx"
+)
+
+export Modele_NH90_GER is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Helico/NH90/NH90.fbx"
+)

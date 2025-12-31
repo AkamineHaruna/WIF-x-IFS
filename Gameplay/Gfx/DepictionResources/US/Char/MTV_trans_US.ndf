@@ -1,0 +1,29 @@
+export Modele_MTV_trans_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/FMTV/MTV.fbx"
+)
+
+export Modele_MTV_trans_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/FMTV/MTV_MID.fbx"
+)
+
+export Modele_MTV_trans_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/FMTV/MTV_LOW.fbx"
+)
+
+export Modele_LMTV_trans_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/FMTV/LMTV.fbx"
+)
+
+export Modele_LMTV_trans_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/FMTV/LMTV_MID.fbx"
+)
+
+export Modele_LMTV_trans_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/FMTV/LMTV_LOW.fbx"
+)

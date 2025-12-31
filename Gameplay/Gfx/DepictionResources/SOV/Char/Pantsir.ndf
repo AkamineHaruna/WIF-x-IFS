@@ -1,0 +1,4 @@
+export Modele_Pantsir is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Pantsir/Pantsir.fbx"
+)

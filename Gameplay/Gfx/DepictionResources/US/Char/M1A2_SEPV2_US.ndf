@@ -1,0 +1,19 @@
+export Modele_M1A2_SEPV2_Abrams_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M1A2_SEPV2/M1A2_sepv2.fbx"
+)
+
+export Modele_M1A2_SEPV2_ERA_Abrams_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/M1A2_SEPV2_Tusk/M1A2_SEPV2_Tusk.fbx"
+)
+
+export Modele_M1A2_SEPV2_ERA_Abrams_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/M1A2_SEPV2_Tusk/M1A2_SEPV2_Tusk_MID.fbx"
+)
+
+export Modele_M1A2_SEPV2_ERA_Abrams_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/M1A2_SEPV2_Tusk/M1A2_SEPV2_Tusk_LOW.fbx"
+)

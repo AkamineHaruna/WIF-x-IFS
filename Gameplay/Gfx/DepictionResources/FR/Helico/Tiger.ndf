@@ -1,0 +1,29 @@
+export Modele_HAP_AA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/Tiger/HAP_AA.fbx"
+)
+
+export Modele_HAP_RKT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/Tiger/HAP_RKT.fbx"
+)
+
+export Modele_HAD_ATGM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/Tiger/HAD_ATGM.fbx"
+)
+
+export Modele_HAD_AA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/Tiger/HAD_AA.fbx"
+)
+
+export Modele_HAP_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/LODS/Tiger/Tiger_MID.fbx"
+)
+
+export Modele_HAP_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/FR/Helico/LODS/Tiger/Tiger_LOW.fbx"
+)

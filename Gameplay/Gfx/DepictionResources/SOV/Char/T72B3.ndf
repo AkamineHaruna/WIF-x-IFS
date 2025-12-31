@@ -1,0 +1,44 @@
+export Modele_T72B3 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72B3.fbx"
+)
+
+export Modele_T72B3M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72B3M.fbx"
+)
+
+export Modele_T72AV is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72AV.fbx"
+)
+
+export Modele_T72B is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72B.fbx"
+)
+
+export Modele_T72A is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72A.fbx"
+)
+
+export Modele_T72B_22 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/T72M.fbx"
+)
+
+export Modele_TOS1A is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T72B3/TOS1A.fbx"
+)
+
+export Modele_TOS1A_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T72B3/TOS1A_MID.fbx"
+)
+
+export Modele_TOS1A_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/T72B3/TOS1A_LOW.fbx"
+)

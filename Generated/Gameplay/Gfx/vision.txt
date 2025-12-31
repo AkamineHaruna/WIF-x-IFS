@@ -1,0 +1,235 @@
+lnd bad:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 45.0 ),
+                ( EOpticalStrength/LowAltitude, 45.0 ),
+                ( EOpticalStrength/HighAltitude, 10.0 ),
+            ]
+        ),
+		
+lnd med:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 70.0 ),
+                ( EOpticalStrength/LowAltitude, 70.0 ),
+                ( EOpticalStrength/HighAltitude, 20.0 ),
+            ]
+        ),
+
+lnd nrm:
+        TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 90.0 ),
+                ( EOpticalStrength/LowAltitude, 90.0 ),
+                ( EOpticalStrength/HighAltitude, 40.0 ),
+            ]
+        ),
+		
+lnd good:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 150.0 ),
+                ( EOpticalStrength/LowAltitude, 150.0 ),
+                ( EOpticalStrength/HighAltitude, 40.0 ),
+            ]
+        ),
+		
+lnd vgood:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 200.0 ),
+                ( EOpticalStrength/LowAltitude, 200.0 ),
+                ( EOpticalStrength/HighAltitude, 40.0 ),
+            ]
+        ),
+		
+lnd exep:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 250.0 ),
+                ( EOpticalStrength/LowAltitude, 250.0 ),
+                ( EOpticalStrength/HighAltitude, 40.0 ),
+            ]
+        ),
+		
+manpad:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 8481.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 90.0 ),
+                ( EOpticalStrength/LowAltitude, 90.0 ),
+                ( EOpticalStrength/HighAltitude, 80.0 ),
+            ]
+        ),
+		
+aa (non-rad):
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 10601.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 70.0 ),
+                ( EOpticalStrength/LowAltitude, 70.0 ),
+                ( EOpticalStrength/HighAltitude, 120.0 ),
+            ]
+        ),
+
+aa (rad):
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 10601.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 70.0 ),
+                ( EOpticalStrength/LowAltitude, 70.0 ),
+                ( EOpticalStrength/HighAltitude, 250.0 ),
+            ]
+        ),
+
+heli rec:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 10601.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 250.0 ),
+                ( EOpticalStrength/LowAltitude, 250.0 ),
+                ( EOpticalStrength/HighAltitude, 120.0 ),
+            ]
+        ),
+
+fighter:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 4947.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/LowAltitude, 450.0 ),
+                ( EOpticalStrength/HighAltitude, 450.0 ),
+            ]
+        ),
+cas/fighter bad:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 4240.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/LowAltitude, 300.0 ),
+                ( EOpticalStrength/HighAltitude, 300.0 ),
+            ]
+        ),
+cas bad:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3534.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/LowAltitude, 150.0 ),
+                ( EOpticalStrength/HighAltitude, 150.0 ),
+            ]
+        ),
+sead:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 5830.0 ),
+                ( EVisionRange/LowAltitude, 6184.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/AntiRadar, 1500.0 ),
+                ( EOpticalStrength/LowAltitude, 450.0 ),
+                ( EOpticalStrength/HighAltitude, 450.0 ),
+            ]
+        ),
+uav:
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 4240.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/LowAltitude, 300.0 ),
+                ( EOpticalStrength/HighAltitude, 300.0 ),
+            ]
+        ),
+uav(high):
+		TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 8240.0 ),
+                ( EVisionRange/LowAltitude, 9947.0 ),
+                ( EVisionRange/HighAltitude, 31802.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 0.0 ),
+                ( EOpticalStrength/LowAltitude, 300.0 ),
+                ( EOpticalStrength/HighAltitude, 300.0 ),
+            ]
+        ),

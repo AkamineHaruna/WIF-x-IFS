@@ -1,0 +1,4 @@
+export Modele_M109A6 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/Paladin/Paladin.fbx"
+)

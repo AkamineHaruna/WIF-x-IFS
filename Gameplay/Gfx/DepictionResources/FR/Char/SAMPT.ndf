@@ -1,0 +1,17 @@
+export ModelFile_SAMPT is 'GameData:/Assets/3D/Units/FR/Char/SAMPT/SAMPT.fbx'
+export Modele_SAMPT is TResourceMesh
+(
+    Mesh=ModelFile_SAMPT
+)
+
+export ModelFile_SAMPT_MID is 'GameData:/Assets/3D/Units/FR/Char/LODS/SAMPT/SAMPT_MID.fbx'
+export Modele_SAMPT_MID is TResourceMesh
+(
+    Mesh=ModelFile_SAMPT_MID
+)
+
+export ModelFile_SAMPT_LOW is 'GameData:/Assets/3D/Units/FR/Char/LODS/SAMPT/SAMPT_LOW.fbx'
+export Modele_SAMPT_LOW is TResourceMesh
+(
+    Mesh=ModelFile_SAMPT_LOW
+)

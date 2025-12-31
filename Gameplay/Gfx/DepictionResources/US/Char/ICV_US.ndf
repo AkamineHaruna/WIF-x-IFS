@@ -1,0 +1,149 @@
+export Modele_Stryker_ICV_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/ICV.fbx'
+)
+
+export Modele_Stryker_ICV_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/ICV_Mid.fbx'
+)
+
+export Modele_Stryker_ICV_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/ICV_Low.fbx'
+)
+
+export Modele_Stryker_ICV_MK19_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/ICV_MK19.fbx'
+)
+
+export Modele_Stryker_ICV_J_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/ICV_J.fbx'
+)
+
+export Modele_Stryker_ICV_J_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/ICV_J_Mid.fbx'
+)
+
+export Modele_Stryker_ICV_J_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/ICV_J_Low.fbx'
+)
+
+export Modele_Stryker_MGS_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/MGS.fbx'
+)
+
+export Modele_Stryker_MGS_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/MGS_Mid.fbx'
+)
+
+export Modele_Stryker_MGS_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/MGS_Low.fbx'
+)
+
+export Modele_Stryker_MGS_Slat_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/MGS_slat.fbx'
+)
+
+export Modele_Stryker_MGS_Slat_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/MGS_slat_Mid.fbx'
+)
+
+export Modele_Stryker_MCV_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/MCV.fbx'
+)
+
+export Modele_Stryker_MCV_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/MCV_Mid.fbx'
+)
+
+export Modele_Stryker_MCV_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/MCV_Low.fbx'
+)
+
+export Modele_Stryker_SAT_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/SAT.fbx'
+)
+
+export Modele_Stryker_SAT_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SAT_Mid.fbx'
+)
+
+export Modele_Stryker_SAT_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SAT_Low.fbx'
+)
+
+export Modele_Stryker_SAT_Slat_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/SAT_slat.fbx'
+)
+
+export Modele_Stryker_SAT_Slat_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SAT_slat_Mid.fbx'
+)
+
+export Modele_Stryker_RV_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/SRV.fbx'
+)
+
+export Modele_Stryker_RV_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/RCV_Mid.fbx'
+)
+
+export Modele_Stryker_RV_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/RCV_Low.fbx'
+)
+
+export Modele_MSHORAD_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/SHORAD.fbx'
+)
+
+export Modele_MSHORAD_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SHORAD_MID.fbx'
+)
+
+export Modele_MSHORAD_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SHORAD_LOW.fbx'
+)
+
+export Modele_MSHORAD_AGM_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/ICV/SHORAD_AT.fbx'
+)
+
+export Modele_MSHORAD_AGM_US_MID is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SHORAD_AT_MID.fbx'
+)
+
+export Modele_MSHORAD_AGM_US_LOW is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/LODS/ICV/SHORAD_AT_LOW.fbx'
+)
+
+export Modele_Dragoon_US is TResourceMesh
+(
+    Mesh = 'GameData:/Assets/3D/Units/US/Char/Dragoon/Dragoon.fbx'
+)

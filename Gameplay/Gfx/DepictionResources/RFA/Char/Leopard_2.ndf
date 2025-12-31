@@ -1,0 +1,29 @@
+export ModelFile_Leopard_2A6 is 'GameData:/Assets/3D/Units/GER/Char/Leo_2A6/Leo_2A6.fbx'
+export Modele_Leopard_2A6 is TResourceMesh
+(
+    Mesh=ModelFile_Leopard_2A6
+)
+
+//export ModelFile_Leopard_2A6_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Leo_2A6/Leo_2A6_MID.fbx'
+//export Modele_Leopard_2A6_MID is TResourceMesh
+//(
+//    Mesh=ModelFile_Leopard_2A6_MID
+//)
+
+//export ModelFile_Leopard_2A6_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Leo_2A6/Leo_2A6_LOW.fbx'
+//export Modele_Leopard_2A6_LOW is TResourceMesh
+//(
+//    Mesh=ModelFile_Leopard_2A6_LOW
+//)
+
+export ModelFile_Leopard_2A7 is 'GameData:/Assets/3D/Units/GER/Char/Leo_2A7/Leo_2A7.fbx'
+export Modele_Leopard_2A7 is TResourceMesh
+(
+    Mesh=ModelFile_Leopard_2A7
+)
+
+export ModelFile_Leopard_2A7_Trophy is 'GameData:/Assets/3D/Units/GER/Char/Leo_2A7/Leo_2A7_Trophy.fbx'
+export Modele_Leopard_2A7_Trophy is TResourceMesh
+(
+    Mesh=ModelFile_Leopard_2A7_Trophy
+)

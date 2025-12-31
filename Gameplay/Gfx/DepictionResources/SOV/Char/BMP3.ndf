@@ -1,0 +1,29 @@
+export Modele_BMP_3_ERA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP3_ERA/BMP3_ERA.fbx"
+)
+
+export Modele_BMP_3_ERA_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BMP3_ERA/BMP3_ERA_MID.fbx"
+)
+
+export Modele_BMP_3_ERA_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BMP3_ERA/BMP3_ERA_LOW.fbx"
+)
+
+export Modele_BMP_3_NVY is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/BMP3F/BMP3.fbx"
+)
+
+export Modele_BMP_3_NVY_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/BMP3_ERA/BMP3_MID.fbx"
+)
+
+export Modele_KornetT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/KornetT/KornetT.fbx"
+)

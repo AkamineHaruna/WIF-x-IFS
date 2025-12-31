@@ -1,0 +1,17 @@
+export ModelFile_Ozelot is 'GameData:/Assets/3D/Units/GER/Char/Ozelot/Ozelot.fbx'
+export Modele_Ozelot is TResourceMesh
+(
+    Mesh=ModelFile_Ozelot
+)
+
+export ModelFile_Ozelot_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Ozelot/Ozelot_MID.fbx'
+export Modele_Ozelot_MID is TResourceMesh
+(
+    Mesh=ModelFile_Ozelot_MID
+)
+
+export ModelFile_Ozelot_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Ozelot/Ozelot_LOW.fbx'
+export Modele_Ozelot_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Ozelot_LOW
+)

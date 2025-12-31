@@ -1,0 +1,5 @@
+export Modele_AH64_Apache_Longbow_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Helico/Apache/APACHE.fbx"
+)
+

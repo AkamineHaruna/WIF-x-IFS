@@ -1,0 +1,6 @@
+export Modele_T80BVM is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/T80BVM/T80BVM.fbx"
+)
+
+

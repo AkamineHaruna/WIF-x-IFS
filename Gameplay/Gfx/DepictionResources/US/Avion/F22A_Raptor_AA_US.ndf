@@ -1,0 +1,29 @@
+export Modele_F22A_Raptor_AA_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/Raptor/F22Raptor.fbx"
+)
+
+export Modele_F22A_Raptor_AA_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/Raptor/F22Raptor_MID.fbx"
+)
+
+export Modele_F22A_Raptor_AA_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/Raptor/F22Raptor_LOW.fbx"
+)
+
+export Modele_F22A_Raptor_US_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/Raptor/F22Raptor_train.fbx"
+)
+
+export Modele_F22A_Raptor_JDAM_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/Raptor/F22Raptor_CAS.fbx"
+)
+
+export Modele_F22A_Raptor_AA2_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/Raptor/F22Raptor_AA2.fbx"
+)

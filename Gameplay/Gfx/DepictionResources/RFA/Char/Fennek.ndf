@@ -1,0 +1,35 @@
+export ModelFile_Fennek_AGL_GER is 'GameData:/Assets/3D/Units/GER/Char/Fennek/Fennek.fbx'
+export Modele_Fennek_AGL_GER is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_AGL_GER
+)
+
+export ModelFile_Fennek_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Fennek/Fennek_MID.fbx'
+export Modele_Fennek_MID is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_MID
+)
+
+export ModelFile_Fennek_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Fennek/Fennek_LOW.fbx'
+export Modele_Fennek_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_LOW
+)
+
+export ModelFile_Fennek_MMG_GER is 'GameData:/Assets/3D/Units/GER/Char/Fennek/Fennek_MG3.fbx'
+export Modele_Fennek_MMG_GER is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_MMG_GER
+)
+
+export ModelFile_Fennek_50_NL is 'GameData:/Assets/3D/Units/NL/Char/Fennek/Fennek.fbx'
+export Modele_Fennek_50_NL is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_50_NL
+)
+
+export ModelFile_Fennek_50_trans_NL is 'GameData:/Assets/3D/Units/NL/Char/Fennek/Fennek_NL.fbx'
+export Modele_Fennek_50_trans_NL is TResourceMesh
+(
+    Mesh=ModelFile_Fennek_50_trans_NL
+)

@@ -1,0 +1,29 @@
+export Modele_Kamaz66 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Kamaz/KAMAZ66.fbx"
+)
+
+export Modele_Kamaz66_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Kamaz/KAMAZ66_MID.fbx"
+)
+
+export Modele_Kamaz66_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Kamaz/KAMAZ66_LOW.fbx"
+)
+
+export Modele_Kamaz44 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Kamaz/KAMAZ44.fbx"
+)
+
+export Modele_Kamaz44_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Kamaz/KAMAZ44_MID.fbx"
+)
+
+export Modele_Kamaz44_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Kamaz/KAMAZ44_LOW.fbx"
+)

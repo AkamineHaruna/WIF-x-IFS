@@ -1,0 +1,17 @@
+
+unnamed TResourcePackLoader
+(
+    Packs =
+    [
+        TResourceDescriptorMeshPack
+        (
+            PackName = "Base"
+            PackRelativePath = "Pack/A World in Flames/Mesh_All.spk"
+        ),
+        TResourceDescriptorProxyPack
+        (
+            PackName = "Base"
+            PackRelativePath = "Pack/A World in Flames/Mesh_All.ndfbin"
+        ),
+    ]
+)

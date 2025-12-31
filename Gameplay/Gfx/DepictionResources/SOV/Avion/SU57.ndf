@@ -1,0 +1,29 @@
+export Modele_Su_57_AA1 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU57/SU57_AA1.fbx"
+)
+
+export Modele_Su_57_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU57/SU57_MID.fbx"
+)
+
+export Modele_Su_57_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU57/SU57_LOW.fbx"
+)
+
+export Modele_Su_57_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU57/SU57_train.fbx"
+)
+
+export Modele_Su_57_AA2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU57/SU57_AA2.fbx"
+)
+
+export Modele_Su_57_SEAD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU57/SU57_SEAD.fbx"
+)

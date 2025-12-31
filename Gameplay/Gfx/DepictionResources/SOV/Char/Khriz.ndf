@@ -1,0 +1,9 @@
+export Modele_Khriz is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/Khriz/Khriz.fbx"
+)
+
+export Modele_Khriz_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/Khriz/Khriz_MID.fbx"
+)

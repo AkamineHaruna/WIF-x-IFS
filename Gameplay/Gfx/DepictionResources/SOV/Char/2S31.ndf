@@ -1,0 +1,14 @@
+export Modele_2S31 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/2S31/2S31.fbx"
+)
+
+export Modele_2S31_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/2S31/2S31_MID.fbx"
+)
+
+export Modele_2S31_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Char/LODS/2S31/2S31_LOW.fbx"
+)

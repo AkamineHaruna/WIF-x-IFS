@@ -1,0 +1,34 @@
+export Modele_Typhoon_GER_AA is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/Eurofighter/Eurofighter.fbx"
+)
+
+export Modele_Typhoon_GER_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/LODS/Eurofighter/Eurofighter_MID.fbx"
+)
+
+export Modele_Typhoon_GER_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/LODS/Eurofighter/Eurofighter_LOW.fbx"
+)
+
+export Modele_Typhoon_GER_CAS1 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/Eurofighter/Eurofighter_CAS1.fbx"
+)
+
+export Modele_Typhoon_GER_CAS2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/Eurofighter/Eurofighter_CAS2.fbx"
+)
+
+export Modele_Typhoon_GER_SEAD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/Eurofighter/Eurofighter_SEAD.fbx"
+)
+
+export Modele_Typhoon_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/GER/Avion/Eurofighter/Eurofighter_Train.fbx"
+)

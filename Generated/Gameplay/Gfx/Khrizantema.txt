@@ -1,0 +1,593 @@
+WeaponDescriptor:
+
+export WeaponDescriptor_WF_9P157_Khriz_RUS is TWeaponManagerModuleDescriptor
+(
+    Salves           = [ 8, 200, ]
+    AlwaysOrientArmorTowardsThreat = True
+    TurretDescriptorList = [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase               = 0.0
+            AngleRotationBasePitch          = 0.17453292519943275
+            AngleRotationMax                = 6.283185307179586
+            AngleRotationMaxPitch           = 1.3089969389957472
+            AngleRotationMinPitch           = -0.17453292519943295
+            MountedWeaponDescriptorList     = [
+                TMountedWeaponDescriptor
+                (
+                    Ammunition                          = $/GFX/Weapon/Ammo_ATGM_9M123_Khrizantema_BMP
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = "FireEffect_ATGM_9M114M_KokonM"
+                    HandheldEquipmentKey                = "MeshAlternative_1"
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+                    WeaponIgnoredPropertyName           = "WeaponIgnored_1"
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1"]
+                ),
+            ]
+			
+            OutOfRangeTrackingDuration      = 3.5
+            Tag                             = "tourelle1"
+            TurretIdleBehaviourDescriptor   = ~/TurretIdle_VehicleReco
+            VitesseRotation                 = 1.0471975511965976
+            YulBoneOrdinal                  = 1
+        ),
+		TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase               = 0.0
+            AngleRotationBasePitch          = 0.0
+            AngleRotationMax                = 0.017453292519943295
+            AngleRotationMaxPitch           = 0.13962634015954636
+            AngleRotationMinPitch           = -0.13962634015954636
+            MountedWeaponDescriptorList     = [
+                TMountedWeaponDescriptor
+                (
+                    Ammunition                          = $/GFX/Weapon/Ammo_MMG_PKT_7_62mm
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = "FireEffect_MMG_PKT_7_62mm"
+                    HandheldEquipmentKey                = "MeshAlternative_2"
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 1
+                    ShowDispersion                      = False
+                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+                    WeaponIgnoredPropertyName           = "WeaponIgnored_2"
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2"]
+                ),
+            ]
+            OutOfRangeTrackingDuration      = 3.5
+            Tag                             = "tourelle4"
+            TurretIdleBehaviourDescriptor   = ~/TurretIdle_VehicleReco
+            VitesseRotation                 = 1.5707963267948966
+            YulBoneOrdinal                  = 4
+        ),
+    ]
+)
+
+AmmunitionMissiles:
+
+Ammo_ATGM_9M123_Khrizantema_BMP is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{e3845cef-0cf6-4012-a9ea-4014a24f8ad1}
+    Name                              = '9M123'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = 'PELGTHCREA'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'TANDEM', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile_tandem Index=30)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = 'MissileATGMGen2'
+    FxPower                           = EFXPower/UltraLourd
+    TimeBetweenTwoShots                = 1.0
+    TimeBetweenTwoFx                  = 1.0
+    MaximumRangeGRU                 = 2800
+    MinimumRangeGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 39
+    SuppressDamages                   = 235.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    ReflexShotDisabledIfPriorityTarget               = True
+    MaximalSpeedGRU                   = 1060
+    MaxAccelerationGRU                = 353
+    ShotWithPhysics                   = False
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{638f0546-0a95-4c7e-b208-76297a1ce4c7}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 80),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    AimingTime                      = 2.2
+    TimeBetweenTwoSalvos              = 8.0
+    TimeBetweenTwoSalvos_Min           = -1.0
+    TimeBetweenTwoSalvos_Max           = -1.0
+    NbTirParSalves                    = 2
+    SupplyCost                        = 30
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_sturm"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_9M123_Khrizantema_BMP
+)
+
+UniteDescriptor:
+
+export Descriptor_Unit_WF_9P157_Khriz_RUS is TEntityDescriptor
+(
+    DescriptorId       = GUID:{69bf8774-4147-4423-99d2-b1b7b87037fc}
+    ClassNameForDebug  = 'Unit_WF_9P157_Khriz_RUS'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/PACT
+            MotherCountry                    = 'SOV'
+            AcknowUnitTypes = [
+                ~/TAcknowUnitType_TankDestroyer,
+            ]
+        ),
+        TFormationModuleDescriptor(TypeUnitFormation = 'Char'),
+        TankFlagsModuleDescriptor,
+        ~/TargetManagerModuleDescriptor,
+        $/GFX/UnitConstantes/CriticalEffectModule_Vehicule_ArmeSansTourelle,
+        ~/TargetCoordinatorModuleDescriptor,
+        ~/UnitPositionModuleDescriptor,
+        ~/PlayerMissionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "AllowedForMissileRoE",
+                "ChasseurDeChar",
+                "ChasseurDeChar_Standard",
+                "GroundUnits",
+                "UNITE_WF_9P157_Khriz_RUS",
+                "Unite",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.5
+        ),
+        VehicleApparenceModuleDescriptor
+        (
+            MimeticName = "WF_9P157_Khriz_RUS"
+            BlackHoleIdentifier = "WF_9P157_Khriz_RUS"
+            GameplayBBoxBoneName = "chassis"
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Khriz
+        ),
+        TAutoCoverModuleDescriptor
+        (
+            AutoCoverRangeGRU          = 123
+            OccupationRadiusGRU        = 35
+            TerrainListMask            = ~/ETerrainType/None | ~/ETerrainType/ForetLegere | ~/ETerrainType/ForetDense
+            TerrainList                = [~/ETerrainType/ForetLegere, ~/ETerrainType/ForetDense, ]
+            UseTerrainsForEscape       = False
+        ),
+        $/GFX/Weapon/WeaponDescriptor_WF_9P157_Khriz_RUS
+,        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/GroundUnit_MaxSuppressionDamages
+            MaxStunDamages = ~/GroundUnit_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/GroundUnit_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/GroundUnit_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_blindage Index=6)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_blindage Index=4)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_blindage Index=2)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_blindage Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = True
+            UseTopArmorAgainstFire = True
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 63),
+        TRoutModuleDescriptor(MoralLevel = 0),
+        ~/TerrainSpeedModifierModuleDescriptor,
+        ~/FacingInfosModuleDescriptor,
+        TGenericMovementModuleDescriptor
+        (
+		   MaxSpeedInKmph = 60
+		   PathfindType = $/Pathfind/PathfindTypes/AmphibiousVehicle
+        ),
+        TLandMovementModuleDescriptor
+        (
+			UnitMovingType = EUnitMovingType/TrackAmphibious
+			SpeedBonusFactorOnRoad = 1.57
+			MaxAccelerationGRU = 18.0
+			MaxDecelerationGRU = 35.0
+			TempsDemiTour = 8.0
+			StartTime = 0
+			StopTime = 0
+			RotationStartTime = 0
+			RotationStopTime = 0
+        ),
+        TFuelModuleDescriptor
+        (
+            FuelCapacity = 500
+            FuelMoveDuration = 575.0
+        ),
+        TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 3500.0 ),
+                ( EVisionRange/LowAltitude, 4947.0 ),
+                ( EVisionRange/HighAltitude, 5654.0 ),
+            ]
+            OpticalStrengths = MAP [
+                ( EOpticalStrength/Standard, 90.0 ),
+                ( EOpticalStrength/LowAltitude, 90.0 ),
+                ( EOpticalStrength/HighAltitude, 40.0 ),
+            ]
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.5
+                TimeBetweenEachIdentifyRoll = 6.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        TMissileCarriageModuleDescriptor(Connoisseur = $/GFX/Depiction/MissileCarriage_WF_9P157_Khriz_RUS),
+        UnitCadavreGeneratorModuleDescriptor
+        (
+            KillMode = EKillMode/Vehicle
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+        ),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing | EGameplayBehavior/RetreatOnOutOfAmmo
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/UnitStateEngineCompanyModuleDescriptor,
+        ~/UnitStateEngineModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            FactoryType            = EFactory/Tanks
+            ProductionTime     = 5
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 120),
+                ($/GFX/Resources/Resource_Tickets, 1),
+            ]
+        ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+        TAttackReactionModuleDescriptor
+        (
+            CanAssist = False
+            AssistRequestBroadcastRadiusGRU = 0.0
+            DistanceToFleeGRU = 353
+            MaxDistanceForOffensiveReactionGRU = 353
+            MaxDistanceForEngagementGRU = 0.0
+            SearchedTagsInEngagementTarget = [
+               "AllUnits",
+            ]
+        ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = $/GFX/UI/CubeAction_Menu_Ordres_unites
+        ),
+        TMinimapDisplayModuleDescriptor
+        (
+            Texture = "Texture_Minimap_Unit_unit"
+            FollowUnitOrientation = False
+        ),
+        TOrderConfigModuleDescriptor
+        (
+            ValidOrders = ~/Descriptor_OrderAvailability_MTLB_Shturm_SOV
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_MTLB_Shturm_SOV
+        ),
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            MultiSelectionSortingOrder = 14085
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_AT_veh",
+                    "Texture_AT_veh"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_veh_nonIdentifie",
+                    "Texture_veh_nonIdentifie"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/TargetDataModuleDescriptor,
+        TStrategicDataModuleDescriptor
+        (
+            UnitAttackValue = 66
+            UnitDefenseValue = 131
+            UnitBonusXpPerLevelValue = 1
+        ),
+        TUnitUIModuleDescriptor
+        (
+            PriceCategory = 'tank_B'
+			UnitRole = 'AT'
+            SpecialtiesList = [
+                '_amphibie',
+            ]
+            NameToken = 'WFKRIBMP'
+            InfoPanelConfigurationToken = 'Default'
+            DisplayRoadSpeedInKmph = 75
+            UpgradeFromUnit = Descriptor_Unit_MTLB_Shturm_SOV
+            GenerateName = true
+            MenuIconTexture = 'Texture_RTS_H_AT_veh'
+            ButtonTexture = 'Texture_Button_Unit_Khriz'
+            TypeStrategicCount = ETypeStrategicDetailedCount/AT_Veh
+        ),
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 1.0 ),
+        TVisualShootPositionsModuleDescriptor(),
+		TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            ShowRoomBlackHoleIdentifier = "showroom_WF_9P157_Khriz_RUS"
+            HasServants = False
+        ),
+    ]
+)
+
+MissileDescriptors:
+
+export Descriptor_Missile_ATGM_9M123_Khrizantema_BMP is TEntityDescriptor
+(
+    DescriptorId       = GUID:{2cc08c96-6c57-4f9f-b039-f5a954c3a170}
+    ClassNameForDebug  = 'Missile_ATGM_9M123_Khrizantema_BMP'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_9M123_Khrizantema_BMP",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Shturm
+                Actions = MAP[
+                    ( "fx_propulsion_on", template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1060
+                MaxAccelerationGRU = 353
+				
+                AutoGyr            = 1.3962634015954636
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1060
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 0.5
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_Missile Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+
+DeckSerializer:
+
+	    ($/GFX/Unit/Descriptor_Unit_WF_9P157_Khriz_RUS, 10219),
+		
+NdfDepictionList:
+
+	"GameData:/Gameplay/Gfx/DepictionResources/SOV/Char/Khriz.ndf",
+	
+DepictionVehicles:
+
+DepictionOperator_WF_9P157_Khriz_RUS_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Connoisseur = MissileCarriage_WF_9P157_Khriz_RUS
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_WF_9P157_Khriz_RUS_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    NbFX = 1
+)
+TacticDepiction_WF_9P157_Khriz_RUS is TacticVehicleDepictionDesc
+(
+    CoatingName = 'WF_9P157_Khriz_RUS'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_WF_9P157_Khriz_RUS
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Bmp3,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_SAM_SOVIET,
+        DepictionOperator_WF_9P157_Khriz_RUS_Weapon1,
+        DepictionOperator_WF_9P157_Khriz_RUS_Weapon2,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_ATGM_9M114M_KokonM ),
+                ( "weapon_effet_tag2", Weapon_MMG_PKT_7_62mm ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+)
+
+DepictionVehiclesShowroom:
+
+Gfx_WF_9P157_Khriz_RUS_Showroom is ShowroomVehicleDepictionDesc
+(
+    Alternatives = Alternatives_WF_9P157_Khriz_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+
+MimeticGhosts:
+
+		( 'WF_9P157_Khriz_RUS', GhostDepiction_WF_9P157_Khriz_RUS ),
+		
+DepictionGhosts:
+
+GhostDepiction_WF_9P157_Khriz_RUS is GhostVehicleDepictionDesc
+(
+    Alternatives = Alternatives_WF_9P157_Khriz_RUS
+    Selector = SpecificVehicleDepictionSelector
+)
+
+DepictionAlternatives:
+
+Alternatives_WF_9P157_Khriz_RUS is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Khriz ),
+    DepictionVisual_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_Khriz_MID ),
+    DepictionVisual_LOD_Low( DisabledOperators = [ "tourelle4" ] MeshDescriptor = $/GFX/DepictionResources/Modele_Khriz ),
+]
+
+MissileCarraige:
+
+export MissileCarriage_WF_9P157_Khriz_RUS is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Khriz
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            MissileCount = 16
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)

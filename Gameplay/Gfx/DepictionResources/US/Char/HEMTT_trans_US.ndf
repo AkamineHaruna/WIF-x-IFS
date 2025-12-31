@@ -1,0 +1,14 @@
+export Modele_HEMTT_trans_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/HEMTT/HEMTT.fbx"
+)
+
+export Modele_HEMTT_trans_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HEMTT/HEMTT_MID.fbx"
+)
+
+export Modele_HEMTT_trans_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Char/LODS/HEMTT/HEMTT_LOW.fbx"
+)

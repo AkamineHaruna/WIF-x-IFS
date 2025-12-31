@@ -1,0 +1,40 @@
+// Ne pas éditer, ce fichier est auto-généré !
+
+ResistanceFamily_avion is 0
+ResistanceFamily_batiment is 1
+ResistanceFamily_blindage is 2
+ResistanceFamily_canon is 3
+ResistanceFamily_helico is 4
+ResistanceFamily_infanterie is 5
+ResistanceFamily_toit is 6
+ResistanceFamily_vehicule is 7
+ResistanceFamily_vehicule_leger is 8
+ResistanceFamily_blindage_era is 9
+ResistanceFamily_blindage_cage is 10
+ResistanceFamily_UAV is 11
+ResistanceFamily_Missile is 12
+
+DamageFamily_ap is 0
+DamageFamily_ap_missile is 1
+DamageFamily_ap_missile_sead is 2
+DamageFamily_cac is 3
+DamageFamily_clu_sol_ap is 4
+DamageFamily_cluster is 5
+DamageFamily_cluster_ap is 6
+DamageFamily_fmballe is 7
+DamageFamily_flamme is 8
+DamageFamily_he is 9
+DamageFamily_he_dca is 10
+DamageFamily_he_autocanon is 11
+DamageFamily_howz is 12
+DamageFamily_howz_bombe is 13
+DamageFamily_missile_he is 14
+DamageFamily_smoke is 15
+DamageFamily_superhe is 16
+DamageFamily_superhe_sol is 17
+DamageFamily_suppress is 18
+DamageFamily_suppressap is 19
+DamageFamily_thermobarique is 20
+DamageFamily_roquette_ap is 21
+DamageFamily_suppressdca is 22
+DamageFamily_ap_missile_tandem is 23

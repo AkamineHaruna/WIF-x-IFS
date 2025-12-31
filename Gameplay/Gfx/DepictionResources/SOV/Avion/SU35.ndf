@@ -1,0 +1,29 @@
+export Modele_Su_35_AA1 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU35/SU35_AA1.fbx"
+)
+
+export Modele_Su_35_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU35/SU35_MID.fbx"
+)
+
+export Modele_Su_35_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/LODS/SU35/SU35_LOW.fbx"
+)
+
+export Modele_Su_35_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU35/SU35_train.fbx"
+)
+
+export Modele_Su_35_AA2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU35/SU35_AA2.fbx"
+)
+
+export Modele_Su_35_SEAD is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Avion/SU35/SU35_SEAD.fbx"
+)

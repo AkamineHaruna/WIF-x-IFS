@@ -1,0 +1,29 @@
+export Modele_Mi_35M is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35/MI35.fbx"
+)
+
+export Modele_Mi_35M_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/LODS/MI35/MI35_MID.fbx"
+)
+
+export Modele_Mi_35M_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/LODS/MI35/MI35_LOW.fbx"
+)
+
+export Modele_Mi_35M_RKT1 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35/MI35_RKT1.fbx"
+)
+
+export Modele_Mi_35M_RKT2 is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35/MI35_RKT2.fbx"
+)
+
+export Modele_Mi_35M_AT is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/RUS/Helico/MI35/MI35_AT.fbx"
+)

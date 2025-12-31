@@ -1,0 +1,23 @@
+export ModelFile_Wolf is 'GameData:/Assets/3D/Units/GER/Char/Wolf/Wolf.fbx'
+export Modele_Wolf is TResourceMesh
+(
+    Mesh=ModelFile_Wolf
+)
+
+export ModelFile_Wolf_MID is 'GameData:/Assets/3D/Units/GER/Char/LODS/Wolf/Wolf_MID.fbx'
+export Modele_Wolf_MID is TResourceMesh
+(
+    Mesh=ModelFile_Wolf_MID
+)
+
+export ModelFile_Wolf_LOW is 'GameData:/Assets/3D/Units/GER/Char/LODS/Wolf/Wolf_LOW.fbx'
+export Modele_Wolf_LOW is TResourceMesh
+(
+    Mesh=ModelFile_Wolf_LOW
+)
+
+export ModelFile_VPS_GER is 'GameData:/Assets/3D/Units/GER/Char/VPS/VPS.fbx'
+export Modele_VPS_GER is TResourceMesh
+(
+    Mesh=ModelFile_VPS_GER
+)

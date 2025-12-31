@@ -1,0 +1,11 @@
+export ModelFile_Dingo_2_GER is 'GameData:/Assets/3D/Units/GER/Char/Dingo_2/Dingo_2.fbx'
+export Modele_Dingo_2_GER is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_2_GER
+)
+
+export ModelFile_Dingo_1_GER is 'GameData:/Assets/3D/Units/GER/Char/Dingo_1/Dingo_1.fbx'
+export Modele_Dingo_1_GER is TResourceMesh
+(
+    Mesh=ModelFile_Dingo_1_GER
+)

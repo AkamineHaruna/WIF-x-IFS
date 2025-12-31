@@ -1,0 +1,19 @@
+export Modele_EA18G_US is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F18/EA18G.fbx"
+)
+
+export Modele_EA18G_US_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/F18/EA18G_MID.fbx"
+)
+
+export Modele_EA18G_US_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/LODS/F18/EA18G_LOW.fbx"
+)
+
+export Modele_F18_US_train is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/US/Avion/F18/F18_train.fbx"
+)
